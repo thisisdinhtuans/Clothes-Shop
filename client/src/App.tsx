@@ -9,7 +9,7 @@ function App() {
 
   //hàm addProduct để định nghĩa để thêm 1 sản phẩm mới vào danh sách products, hàm nầy sử dụng setProducts để cập nhật state products bằng cách sao chép mảng products hiện tại và thêm 1 phẩn tử mới vào cuối mảng đó
   function addProduct() {
-    setProducts([...products, {name:'product3', price:300.00}]);
+    setProducts(prevState=>[...prevState, {name:'product'+(prevState.length+1), price: (prevState.length*100)+100}]);
   }
   //đây là phần trả về component
   return (
