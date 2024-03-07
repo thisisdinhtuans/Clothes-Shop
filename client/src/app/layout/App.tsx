@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Product } from "./product";
+import { Product } from "../../product";
 
 function App() {
   //sử dụng hook useState để khởi tạo một state products là 1 mảng chứa danh sách các sản phẩm. Mỗi sản phẩm được đại diện bởi một đối tượng có 2 thuocj tish là name và price
