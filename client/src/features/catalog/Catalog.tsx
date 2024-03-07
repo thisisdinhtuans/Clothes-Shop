@@ -1,3 +1,4 @@
+import { Avatar, Button, List, ListItem, ListItemAvatar, ListItemText } from "@mui/material";
 import { Product } from "../../app/models/product";
 
 //Phân biệt mảng ở Props này nha, vì nó sẽ 
@@ -10,14 +11,19 @@ interface Props {
 export default function Catalog({products, addProduct}:Props) {
     return (
         <>
-            <ul>
+            <List>
             {/* sử dụng phương thức map để lặp qua mảng products và render mỗi sản phẩm với name và price */}
             {products.map(product=>(
-            <li key={product.id}>{product.name} - {product.price}</li>
+                <ListItem key={product.id}>
+                    <ListItemAvatar>
+                        <Avatar src={product.pictureUrl}></Avatar>
+                    </ListItemAvatar>
+                    <ListItemText>{product.name} - {product.price}</ListItemText>
+                </ListItem>
             ))}
-            </ul>
+            </List>
             {/* nút addProduct được hiển thị bên dưới danh sách sản phẩm , khi người dùng bấm vào nút này thì hàm addProduct() sẽ được gọi để thêm 1 sản phẩm mới vào danh sách */}
-            <button onClick={addProduct}>Add product</button>
+            <Button variant='contained' onClick={addProduct}>Add product</Button>
         </>
     )
 }
