@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function App() {
   //sử dụng hook useState để khởi tạo một state products là 1 mảng chứa danh sách các sản phẩm. Mỗi sản phẩm được đại diện bởi một đối tượng có 2 thuocj tish là name và price
@@ -7,7 +7,13 @@ function App() {
     {name:'product2', price:200.00},
   ]);
 
-  //hàm addProduct để định nghĩa để thêm 1 sản phẩm mới vào danh sách products, hàm nầy sử dụng setProducts để cập nhật state products bằng cách sao chép mảng products hiện tại và thêm 1 phẩn tử mới vào cuối mảng đó
+  useEffect(()=> {
+    fetch('http://localhost:5000/api/products')
+    .then(response=>response.json())
+    .then(data=>setProducts(data))
+  }, [])
+
+  //hàm addProduct để định nghĩa để thêm 1 sản phẩm mới vào danh sách products, hàm nầy sử dụng setProducts để cập nhật state products. Thay vì trực tiếp sử dụng mảng products hiện tại, nó sử dụng sử dụng hàm callback của setProducts và truyền vào tham số prevState, đại diện cho giá trị trước đó của products. Sau đó, ns tạo ra 1 mảng mới bằng cash sao chép prevState và thêm 1 sản phẩm mới vào cuối mảng đó
   function addProduct() {
     setProducts(prevState=>[...prevState, {name:'product'+(prevState.length+1), price: (prevState.length*100)+100}]);
   }
