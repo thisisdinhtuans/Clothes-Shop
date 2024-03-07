@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { Product } from "../models/product";
 import Catalog from "../../features/catalog/Catalog";
-import { Typography } from "@mui/material";
+import { Container, CssBaseline, Typography } from "@mui/material";
+import Header from "./Header";
 
 function App() {
   //sử dụng hook useState để khởi tạo một state products là 1 mảng chứa danh sách các sản phẩm. Mỗi sản phẩm được đại diện bởi một đối tượng có 2 thuocj tish là name và price
@@ -33,10 +34,14 @@ function App() {
   }
   //đây là phần trả về component
   return (
-    <div>
-      <Typography variant='h1'>Re-Store</Typography>
-      <Catalog products={products} addProduct={addProduct}/>
-    </div>
+    <>
+    {/* làm cho Header nó phủ dọc hết */}
+      <CssBaseline/>
+      <Header />
+      <Container>
+        <Catalog products={products} addProduct={addProduct}/>
+      </Container>
+    </>
   )
 }
 
