@@ -1,8 +1,8 @@
 import { Divider, Grid, Table, TableBody, TableCell, TableContainer, TableRow, Typography } from "@mui/material";
-import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Product } from "../../app/models/product";
+import agent from "../../app/api/agent";
 
 export default function ProductDetails() {
     //Hook useParams được sử dụng để lấy các tham số từ URL. trong trường hợp này, id được trích xuất từ URL để viết sản phẩm cụ thế mà chúng ta đam xem chi tiết
@@ -13,9 +13,9 @@ export default function ProductDetails() {
     //úeEffect được sử dụng để thực hiện tác vụ liên quan đến slide effects trong component. trong trường hợp này, nó được sử dụng để gửi yêu cầu HTTPGET đến endpoint http://localhost:5000/api/Products/${id} đẻ lấy thông tin chi tiết của sản phẩm với id tương ứng. khi nhận được phản hồi từ api, product được cập nhật với dữ liệu của sản phẩm, và biến loading được đặt lại là false
     //ngoài ra nếu có lỗi trong quá trình gửi yêu cầu, lỗi được in ra console. 
     useEffect(()=> {
-        axios.get(`http://localhost:5000/api/Products/${id}`)
-            .then(response=>setProduct(response.data))
-            .catch(error=>console.log(error))
+        id&&agent.Catalog.details(parseInt(id))
+            .then(response=>setProduct(response))
+            .catch(error=>console.log(error.response))
             .finally(()=>setLoading(false));
     },[id])
     //Kiểm tra trạng thái loading: Nếu loading là true, hiển thị một thông báo "Loading..." cho đến khi dữ liệu sản phẩm được tải hoàn tất.

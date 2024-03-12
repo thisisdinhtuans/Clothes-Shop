@@ -1,3 +1,4 @@
+import agent from "../../app/api/agent";
 import { Product } from "../../app/models/product";
 import ProductList from "./ProductList";
 import { useState, useEffect } from "react";
@@ -14,9 +15,7 @@ export default function Catalog() {
   //4. dữ liệu JSON đó được chuyển đến hàm setProducts để cập nhật state 'products' trong component React với dữ liệu mới lấy từ api. Khi setProducts được gọi, component sẽ được render lại với dữ liệu sản phẩm mới
   //Tóm lại, đoạn mã trên sử dụng useEffect để gọi API khi component được render lần đầu tiên và cập nhật state products của component với dữ liệu sản phẩm từ API.
   useEffect(()=> {
-    fetch('http://localhost:5000/api/Products')
-      .then(response=>response.json())
-      .then(data=>setProducts(data))
+    agent.Catalog.list().then(products =>setProducts(products))
   }, [])
 
     return (
