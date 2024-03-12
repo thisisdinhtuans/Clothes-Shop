@@ -1,4 +1,3 @@
-import Catalog from "../../features/catalog/Catalog";
 import { ToastContainer } from 'react-toastify';
 import { Container, CssBaseline, ThemeProvider, createTheme } from "@mui/material";
 // import {Theme} from "@material-ui/core";
