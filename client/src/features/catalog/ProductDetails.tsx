@@ -15,7 +15,7 @@ export default function ProductDetails() {
     useEffect(()=> {
         id&&agent.Catalog.details(parseInt(id))
             .then(response=>setProduct(response))
-            .catch(error=>console.log(error.response))
+            .catch(error=>console.log(error))
             .finally(()=>setLoading(false));
     },[id])
     //Kiểm tra trạng thái loading: Nếu loading là true, hiển thị một thông báo "Loading..." cho đến khi dữ liệu sản phẩm được tải hoàn tất.
