@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { Product } from "../../app/models/product";
 import agent from "../../app/api/agent";
 import NotFound from "../../app/errors/NotFound";
+import LoadingComponent from "../../app/layout/LoadingComponent";
 
 export default function ProductDetails() {
     //Hook useParams được sử dụng để lấy các tham số từ URL. trong trường hợp này, id được trích xuất từ URL để viết sản phẩm cụ thế mà chúng ta đam xem chi tiết
@@ -20,7 +21,7 @@ export default function ProductDetails() {
             .finally(()=>setLoading(false));
     },[id])
     //Kiểm tra trạng thái loading: Nếu loading là true, hiển thị một thông báo "Loading..." cho đến khi dữ liệu sản phẩm được tải hoàn tất.
-    if(loading) return <h3>Loading...</h3>
+    if(loading) return <LoadingComponent message='Loading product...' />
     //Kiểm tra trạng thái product: Nếu product là null, hiển thị một thông báo "Product not found" để thông báo rằng sản phẩm không được tìm thấy.
     if(!product)return <NotFound />
     return (

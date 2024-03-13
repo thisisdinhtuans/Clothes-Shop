@@ -1,4 +1,5 @@
 import agent from "../../app/api/agent";
+import LoadingComponent from "../../app/layout/LoadingComponent";
 import { Product } from "../../app/models/product";
 import ProductList from "./ProductList";
 import { useState, useEffect } from "react";
@@ -7,6 +8,7 @@ import { useState, useEffect } from "react";
 export default function Catalog() {
     //sử dụng hook useState để khởi tạo một state products là 1 mảng chứa danh sách các sản phẩm. Mỗi sản phẩm được đại diện bởi một đối tượng có 2 thuocj tish là name và price
   const [products, setProducts]=useState<Product[]>([]);
+  const [loading, setLoading]=useState(true);
   //sử dụng hook useEffect trong React để thực hiện các thao tác có liên quan đến slide effects, chẳng hạn như gọi api khi component được render
   //1. useEffect nhận vào 1 hàm callBack và 1 mảng dependency. Trong trường hợp mảng dependency được truyền vào là [], nghĩa là useEffect sẽ chỉ được gọi 
   // một lần sau khi component được render lần đầu tiên và không có dependency nào được cung cấp.
@@ -15,8 +17,12 @@ export default function Catalog() {
   //4. dữ liệu JSON đó được chuyển đến hàm setProducts để cập nhật state 'products' trong component React với dữ liệu mới lấy từ api. Khi setProducts được gọi, component sẽ được render lại với dữ liệu sản phẩm mới
   //Tóm lại, đoạn mã trên sử dụng useEffect để gọi API khi component được render lần đầu tiên và cập nhật state products của component với dữ liệu sản phẩm từ API.
   useEffect(()=> {
-    agent.Catalog.list().then(products =>setProducts(products))
+    agent.Catalog.list()
+    .then(products =>setProducts(products))
+    .catch(error=>console.log(error))
+    .finally(()=>setLoading(false))
   }, [])
+  if(loading)return <LoadingComponent message='Loading products...'/>
 
     return (
         <>
