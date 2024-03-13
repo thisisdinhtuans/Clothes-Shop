@@ -2986,11 +2986,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UDEMY\\.NETReact\\demo\\ReStore\\API\\API.csproj",
+      "projectUniqueName": "D:\\UDEMY\\.NETReact\\demo\\ReStore\\api\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\UDEMY\\.NETReact\\demo\\ReStore\\API\\API.csproj",
+      "projectPath": "D:\\UDEMY\\.NETReact\\demo\\ReStore\\api\\API.csproj",
       "packagesPath": "C:\\Users\\AD\\.nuget\\packages\\",
-      "outputPath": "D:\\UDEMY\\.NETReact\\demo\\ReStore\\API\\obj\\",
+      "outputPath": "D:\\UDEMY\\.NETReact\\demo\\ReStore\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AD\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0/mwcZlWH9RfsYXYKE4+0A4lBYGbvF6ESJJ6ON3IB5/r7j6+QGE7PHdHY97k8BkiYi6LgagwxyMXs818fG0Fag==",
+  "dgSpecHash": "sKqyP8g0gLbSF5WZnnefWwoOZ/MUEAfFGIQnGj4/k5YiT54V9TRDl5/x386CiZE47Cfgxn0U0/rH4QH3ohyGEw==",
   "success": true,
-  "projectFilePath": "D:\\UDEMY\\.NETReact\\demo\\ReStore\\api\\API.csproj",
+  "projectFilePath": "D:\\UDEMY\\.NETReact\\demo\\ReStore\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AD\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\AD\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
