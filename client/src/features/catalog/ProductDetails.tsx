@@ -20,6 +20,7 @@ export default function ProductDetails() {
             .catch(error=>console.log(error))
             .finally(()=>setLoading(false));
     },[id])
+
     //Kiểm tra trạng thái loading: Nếu loading là true, hiển thị một thông báo "Loading..." cho đến khi dữ liệu sản phẩm được tải hoàn tất.
     if(loading) return <LoadingComponent message='Loading product...' />
     //Kiểm tra trạng thái product: Nếu product là null, hiển thị một thông báo "Product not found" để thông báo rằng sản phẩm không được tìm thấy.
