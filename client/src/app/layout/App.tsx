@@ -21,6 +21,8 @@ function App() {
         .then(basket=>setBasket(basket))
         .catch(error=>console.log(error))
         .finally(()=>setLoading(false))
+    } else {
+      setLoading(false);
     }
   },[setBasket])
   const [darkMode, setDarkMode]=useState(false);
@@ -38,7 +40,7 @@ function App() {
     setDarkMode(!darkMode);
   }
 
-  if(loading) return <LoadingComponent message='Initialising app ...' />
+  if(loading) return <LoadingComponent message='Initialising app ...' /> 
   //đây là phần trả về component
   return (
     <ThemeProvider theme={theme}>
