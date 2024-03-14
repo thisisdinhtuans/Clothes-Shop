@@ -1,5 +1,5 @@
 import { Divider, Grid, Table, TableBody, TableCell, TableContainer, TableRow, TextField, Typography } from "@mui/material";
-import { useEffect, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Product } from "../../app/models/product";
 import agent from "../../app/api/agent";
@@ -9,7 +9,7 @@ import { useStoreContext } from "../../app/context/StoreContext";
 import { LoadingButton } from "@mui/lab";
 
 export default function ProductDetails() {
-    const {basket} =useStoreContext();
+    const {basket,setBasket, removeItem} =useStoreContext();
     //Hook useParams được sử dụng để lấy các tham số từ URL. trong trường hợp này, id được trích xuất từ URL để viết sản phẩm cụ thế mà chúng ta đam xem chi tiết
     const {id} = useParams<{id:string}>();
     //useState được sử dụng để khởi tạo state trong component. product được khởi tạo với giá trị ban đầu là null và loading được khởi tạo với giá trị ban đầu là true
@@ -26,8 +26,33 @@ export default function ProductDetails() {
             .then(response=>setProduct(response))
             .catch(error=>console.log(error))
             .finally(()=>setLoading(false));
+    //truyền cái item vào để lấy số lượng đã cho vào giỏ
     },[id, item])
 
+
+    function handleInputChange(event:ChangeEvent<HTMLInputElement>) {
+        if(parseInt(event.currentTarget.value)>=0){
+            setQuantity(parseInt(event.currentTarget.value));
+        }
+    }
+
+    function handleUpdateCart() {
+        if(!product) return;
+        setSubmitting(true);
+        if(!item || quantity>item.quantity) {
+            const updatedQuantity=item ? quantity - item.quantity:quantity;
+            agent.Basket.addItem(product.id, updatedQuantity)
+                .then(basket=>setBasket(basket))
+                .catch(error=>console.log(error))
+                .finally(()=>setSubmitting(false))
+        } else {
+            const updatedQuantity=item.quantity - quantity;
+            agent.Basket.removeItem(product.id, updatedQuantity)
+                .then(()=> removeItem(product.id, updatedQuantity))
+                .catch(error=>console.log(error))
+                .finally(()=>setSubmitting(false))
+        }
+    }
     //Kiểm tra trạng thái loading: Nếu loading là true, hiển thị một thông báo "Loading..." cho đến khi dữ liệu sản phẩm được tải hoàn tất.
     if(loading) return <LoadingComponent message='Loading product...' />
     //Kiểm tra trạng thái product: Nếu product là null, hiển thị một thông báo "Product not found" để thông báo rằng sản phẩm không được tìm thấy.
@@ -73,6 +98,7 @@ export default function ProductDetails() {
                 <Grid container  spacing={2}>
                     <Grid item xs={6}>
                         <TextField 
+                        onChange={handleInputChange}
                         variant='outlined'
                         type='number'
                         label='Quantity in Cart'
@@ -82,6 +108,9 @@ export default function ProductDetails() {
                     </Grid>
                     <Grid item xs={6}>
                         <LoadingButton
+                            disabled={item?.quantity===quantity||!item &&quantity===0}
+                            loading ={submitting}
+                            onClick={handleUpdateCart}
                             sx={{height:'55px'}}
                             color='primary'
                             size='large'
