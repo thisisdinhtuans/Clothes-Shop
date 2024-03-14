@@ -1,6 +1,10 @@
 import { Avatar, Button, Card, CardActions, CardContent, CardHeader, CardMedia, Typography } from "@mui/material";
 import { Product } from "../../app/models/product";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import agent from "../../app/api/agent";
+import { LoadingButton } from "@mui/lab";
+
 
 
 interface Props {
@@ -8,6 +12,14 @@ interface Props {
 }
 
 export default function ProductCard({product}:Props) {
+  const [loading, setLoading]=useState(false);
+
+  function handleAddItem(productId:number) {
+    setLoading(true);
+    agent.Basket.addItem(productId)
+      .catch(error=>console.log(error))
+      .finally(()=>setLoading(false))
+  }
     return (
         <Card>
             <CardHeader
@@ -38,7 +50,10 @@ export default function ProductCard({product}:Props) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Add To Cart</Button>
+        <LoadingButton 
+          loading={loading} 
+          onClick={()=>handleAddItem(product.id)} 
+          size="small">Add To Cart</LoadingButton>
         {/* cái Link này phải import react-router-dom, import sai là lỗi đó */}
         <Button component={Link} to={`/catalog/${product.id}`} size="small">View</Button>
       </CardActions>
