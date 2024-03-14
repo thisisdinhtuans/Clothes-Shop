@@ -31,8 +31,11 @@ if (app.Environment.IsDevelopment())
 //Đây là cấu hình cụ thể của CORS. Bạn đang chỉ định rằng bất kỳ trang web nào có nguồn gốc từ http://localhost:3000 (domain này) được phép gửi yêu cầu tới API của bạn. 
 //AllowAnyHeader() cho phép bất kỳ header nào trong yêu cầu, 
 //AllowAnyMethod() cho phép bất kỳ phương thức nào (GET, POST, PUT, DELETE, vv.), và .WithOrigins("http://localhost:3000") chỉ định nguồn gốc cụ thể được phép gửi yêu cầu.
+//tại sao ở đây lại sử dụng 'AllowCredentials'? vì nó chỉ ra trình duyệt có thể gửi và nhận các cookie, mã thông báo xác thực hoặc các thông tin xác thực khác khi yêu cầu được gửi đến tài nguyên từ nguồn khác
+//khi thiết lập AllowCredentials, đối tượng gửi yêu cầu từ nguồn khác có thẻ sử dụng các thông tin xác thực như cookie hay header xác thực trong yêu cầu của họ. Điều này là cần thiết trong 1 số trường hợp, đặc biệt khi bạn xác thực người dùng trên các trang web hoặc ứng dụng khác nguồn.
+//việc sử dụng AllowCredentials sẽ làm tăng nguy cơ bảo maajttrong 1 số trương hợp, do đó bạn cần đảm bảo cần thiết và an toàn trong ứng dụng của bạn
 app.UseCors(opt=>{
-    opt.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000");
+    opt.AllowAnyHeader().AllowAnyMethod().AllowCredentials().WithOrigins("http://localhost:3000");
 });
 app.UseHttpsRedirection();
 
