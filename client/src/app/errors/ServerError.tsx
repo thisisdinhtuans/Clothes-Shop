@@ -8,6 +8,7 @@ export default function ServerError() {
             {state?.error ? (
                 <>
                 <Typography gutterBottom variant="h3" color='secondary'>{state.error.title}</Typography>
+                {/* Divider chỉ là dấu gạch */}
                 <Divider />
                 <Typography variant="body1">{state.error.detail||'Internal server error'}</Typography>
                 </>

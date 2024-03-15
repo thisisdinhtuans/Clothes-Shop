@@ -13,7 +13,7 @@ export default function ProductList({products}:Props) {
         {products.map(product=>(
             //chỗ này xs={3} hoặc {4} thì chính là độ rộng của nó, là 12. Nếu 3 thì đc 4 sản phẩm, 4 thfi đc 3 sản phẩm
             <Grid item xs={3} key={product.id}>
-            <ProductCard product={product} />
+                <ProductCard product={product} />
             </Grid>
         ))}
     </Grid>

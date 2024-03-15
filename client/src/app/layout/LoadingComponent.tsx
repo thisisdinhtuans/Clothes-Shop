@@ -6,6 +6,7 @@ interface Props {
 
 export default function LoadingComponent({message='Loading...'}) {
     return (
+        //cái xoay xoay Loading
         <Backdrop open={true} invisible={true}>
             <Box display='flex' justifyContent='center' alignItems='center' height='100vh'>
                 <CircularProgress size={100} color='secondary'/>
