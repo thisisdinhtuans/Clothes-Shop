@@ -5,11 +5,13 @@ import { Product } from "../../app/models/product";
 import agent from "../../app/api/agent";
 import NotFound from "../../app/errors/NotFound";
 import LoadingComponent from "../../app/layout/LoadingComponent";
-import { useStoreContext } from "../../app/context/StoreContext";
 import { LoadingButton } from "@mui/lab";
+import { useAppDispatch, useAppSelector } from "../../app/store/configureStore";
+import { removeItem, setBasket } from "../basket/basketSlice";
 
 export default function ProductDetails() {
-    const {basket,setBasket, removeItem} =useStoreContext();
+    const {basket} =useAppSelector(state=>state.basket);
+    const dispatch=useAppDispatch();
     //Hook useParams được sử dụng để lấy các tham số từ URL. trong trường hợp này, id được trích xuất từ URL để viết sản phẩm cụ thế mà chúng ta đam xem chi tiết
     const {id} = useParams<{id:string}>();
     //useState được sử dụng để khởi tạo state trong component. product được khởi tạo với giá trị ban đầu là null và loading được khởi tạo với giá trị ban đầu là true
@@ -42,13 +44,13 @@ export default function ProductDetails() {
         if(!item || quantity>item.quantity) {
             const updatedQuantity=item ? quantity - item.quantity:quantity;
             agent.Basket.addItem(product.id, updatedQuantity)
-                .then(basket=>setBasket(basket))
+                .then(basket=>dispatch(setBasket(basket)))
                 .catch(error=>console.log(error))
                 .finally(()=>setSubmitting(false))
         } else {
             const updatedQuantity=item.quantity - quantity;
             agent.Basket.removeItem(product.id, updatedQuantity)
-                .then(()=> removeItem(product.id, updatedQuantity))
+                .then(()=> dispatch(removeItem({productId:product.id!, quantity: updatedQuantity})))
                 .catch(error=>console.log(error))
                 .finally(()=>setSubmitting(false))
         }
