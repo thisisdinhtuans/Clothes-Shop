@@ -19,7 +19,7 @@ export default function Catalog() {
   //Tóm lại, đoạn mã trên sử dụng useEffect để gọi API khi component được render lần đầu tiên và cập nhật state products của component với dữ liệu sản phẩm từ API.
   useEffect(()=> {
     if(!productsLoaded) dispatch(fetchProductsAsync());
-  }, [productsLoaded])
+  }, [productsLoaded,dispatch])
   if(status.includes('pending'))return <LoadingComponent message='Loading products...'/>
 
     return (
