@@ -7,10 +7,10 @@ import NotFound from "../../app/errors/NotFound";
 import LoadingComponent from "../../app/layout/LoadingComponent";
 import { LoadingButton } from "@mui/lab";
 import { useAppDispatch, useAppSelector } from "../../app/store/configureStore";
-import { removeItem, setBasket } from "../basket/basketSlice";
+import { addBasketItemAsync, removeBasketItemAsync } from "../basket/basketSlice";
 
 export default function ProductDetails() {
-    const {basket} =useAppSelector(state=>state.basket);
+    const {basket, status} =useAppSelector(state=>state.basket);
     const dispatch=useAppDispatch();
     //Hook useParams được sử dụng để lấy các tham số từ URL. trong trường hợp này, id được trích xuất từ URL để viết sản phẩm cụ thế mà chúng ta đam xem chi tiết
     const {id} = useParams<{id:string}>();
@@ -18,7 +18,6 @@ export default function ProductDetails() {
     const [product, setProduct]=useState<Product | null>(null);
     const [loading, setLoading]=useState(true);
     const [quantity, setQuantity] =useState(0);
-    const [submitting, setSubmitting]=useState(false);
     const item = basket?.items.find(i =>i.productId===product?.id);
     //úeEffect được sử dụng để thực hiện tác vụ liên quan đến slide effects trong component. trong trường hợp này, nó được sử dụng để gửi yêu cầu HTTPGET đến endpoint http://localhost:5000/api/Products/${id} đẻ lấy thông tin chi tiết của sản phẩm với id tương ứng. khi nhận được phản hồi từ api, product được cập nhật với dữ liệu của sản phẩm, và biến loading được đặt lại là false
     //ngoài ra nếu có lỗi trong quá trình gửi yêu cầu, lỗi được in ra console. 
@@ -40,19 +39,12 @@ export default function ProductDetails() {
 
     function handleUpdateCart() {
         if(!product) return;
-        setSubmitting(true);
         if(!item || quantity>item.quantity) {
             const updatedQuantity=item ? quantity - item.quantity:quantity;
-            agent.Basket.addItem(product.id, updatedQuantity)
-                .then(basket=>dispatch(setBasket(basket)))
-                .catch(error=>console.log(error))
-                .finally(()=>setSubmitting(false))
+            dispatch(addBasketItemAsync({productId:product?.id, quantity:updatedQuantity}))
         } else {
             const updatedQuantity=item.quantity - quantity;
-            agent.Basket.removeItem(product.id, updatedQuantity)
-                .then(()=> dispatch(removeItem({productId:product.id!, quantity: updatedQuantity})))
-                .catch(error=>console.log(error))
-                .finally(()=>setSubmitting(false))
+            dispatch(removeBasketItemAsync({productId:product?.id, quantity:updatedQuantity}))
         }
     }
     //Kiểm tra trạng thái loading: Nếu loading là true, hiển thị một thông báo "Loading..." cho đến khi dữ liệu sản phẩm được tải hoàn tất.
@@ -111,7 +103,7 @@ export default function ProductDetails() {
                     <Grid item xs={6}>
                         <LoadingButton
                             disabled={item?.quantity===quantity||!item &&quantity===0}
-                            loading ={submitting}
+                            loading ={status.includes('pendingRemoveItem'+item?.productId)}
                             onClick={handleUpdateCart}
                             sx={{height:'55px'}}
                             color='primary'
