@@ -2,13 +2,13 @@ import LoadingComponent from "../../app/layout/LoadingComponent";
 import { useAppDispatch, useAppSelector } from "../../app/store/configureStore";
 import ProductList from "./ProductList";
 import { useEffect } from "react";
-import { fetchProductsAsync, productSelectors } from "./catalogSlice";
+import { fetchFilters, fetchProductsAsync, productSelectors } from "./catalogSlice";
 
 //chỗ này có thể thêm là any, tức là có thể nhận mọi thứ vào vẫn chạy bình thường, nhưng chúng ta đã khai báo interface Props ở trên thì kế thừa luôn từ cái Props đấy
 export default function Catalog() {
     //sử dụng hook useState để khởi tạo một state products là 1 mảng chứa danh sách các sản phẩm. Mỗi sản phẩm được đại diện bởi một đối tượng có 2 thuocj tish là name và price
   const products=useAppSelector(productSelectors.selectAll);
-  const {productsLoaded,status}=useAppSelector(state=>state.catalog);
+  const {productsLoaded,status,filtersLoaded}=useAppSelector(state=>state.catalog);
   const dispatch=useAppDispatch();
   //sử dụng hook useEffect trong React để thực hiện các thao tác có liên quan đến slide effects, chẳng hạn như gọi api khi component được render
   //1. useEffect nhận vào 1 hàm callBack và 1 mảng dependency. Trong trường hợp mảng dependency được truyền vào là [], nghĩa là useEffect sẽ chỉ được gọi 
@@ -20,6 +20,11 @@ export default function Catalog() {
   useEffect(()=> {
     if(!productsLoaded) dispatch(fetchProductsAsync());
   }, [productsLoaded,dispatch])
+
+  useEffect(()=>{
+    if(!filtersLoaded) dispatch(fetchFilters());
+  },[dispatch, filtersLoaded])
+
   if(status.includes('pending'))return <LoadingComponent message='Loading products...'/>
 
     return (
