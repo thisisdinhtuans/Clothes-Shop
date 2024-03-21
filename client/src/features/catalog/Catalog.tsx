@@ -3,9 +3,11 @@ import { useAppDispatch, useAppSelector } from "../../app/store/configureStore";
 import ProductList from "./ProductList";
 import { useEffect } from "react";
 import { fetchFilters, fetchProductsAsync, productSelectors, setProductParams } from "./catalogSlice";
-import { Box, Checkbox, FormControlLabel, FormGroup, Grid, Pagination, Paper, Typography } from "@mui/material";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import { Box, Grid, Pagination, Paper, Typography } from "@mui/material";
 import ProductSearch from "./ProductSearch";
 import RadioButtonGroup from "../../app/components/RadioButtonGroup";
+import CheckboxButtons from "../../app/components/CheckboxButton";
 
 const sortOptions=[
   {value:'name',label:'Alphabetical'},
@@ -46,25 +48,23 @@ export default function Catalog() {
               <RadioButtonGroup 
                 selectedValue={productParams.orderBy}
                 options={sortOptions}
-                onChange={(e)=>dispatch(setProductParams({orderBy:e.target.value}))}
+                onChange={(e)=>dispatch(setProductParams({orderBy:e.target.value}))}  
               />
             </Paper>
-
-            <Paper sx={{mb:2, p:2}}>
-              <FormGroup>
-                {brands.map(brand=>(
-                  <FormControlLabel control={<Checkbox />} label={brand} key={brand}/>
-                ))}
-              </FormGroup>
-            </Paper>
-
-            <Paper sx={{mb:2, p:2}}>
-              <FormGroup>
-                {types.map(type=>(
-                  <FormControlLabel control={<Checkbox />} label={type} key={type}/>
-                ))}
-              </FormGroup>
-            </Paper>
+            <Paper sx={{ p: 2, mb: 2 }}>
+                    <CheckboxButtons
+                        items={brands}
+                        checked={productParams.brands}
+                        onChange={(items: string[]) => dispatch(setProductParams({ brands: items }))}
+                    />
+                </Paper>
+                <Paper sx={{ p: 2 }}>
+                    <CheckboxButtons
+                        items={types}
+                        checked={productParams.types}
+                        onChange={(items: string[]) => dispatch(setProductParams({ types: items }))}
+                    />
+                </Paper>
           </Grid>
           <Grid item xs={9}>
             <ProductList products={products}/>
