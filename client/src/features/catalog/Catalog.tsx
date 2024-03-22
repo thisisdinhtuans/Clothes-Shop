@@ -2,12 +2,13 @@ import LoadingComponent from "../../app/layout/LoadingComponent";
 import { useAppDispatch, useAppSelector } from "../../app/store/configureStore";
 import ProductList from "./ProductList";
 import { useEffect } from "react";
-import { fetchFilters, fetchProductsAsync, productSelectors, setProductParams } from "./catalogSlice";
+import { fetchFilters, fetchProductsAsync, productSelectors, setPageNumber, setProductParams } from "./catalogSlice";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { Box, Grid, Pagination, Paper, Typography } from "@mui/material";
+import { Grid, Paper } from "@mui/material";
 import ProductSearch from "./ProductSearch";
 import RadioButtonGroup from "../../app/components/RadioButtonGroup";
 import CheckboxButtons from "../../app/components/CheckboxButton";
+import AppPagination from "../../app/components/AppPagination";
 
 const sortOptions=[
   {value:'name',label:'Alphabetical'},
@@ -19,7 +20,7 @@ const sortOptions=[
 export default function Catalog() {
     //sử dụng hook useState để khởi tạo một state products là 1 mảng chứa danh sách các sản phẩm. Mỗi sản phẩm được đại diện bởi một đối tượng có 2 thuocj tish là name và price
   const products=useAppSelector(productSelectors.selectAll);
-  const {productsLoaded,status,filtersLoaded, brands, types, productParams}=useAppSelector(state=>state.catalog);
+  const {productsLoaded,filtersLoaded, brands, types, productParams, metaData}=useAppSelector(state=>state.catalog);
   const dispatch=useAppDispatch();
   //sử dụng hook useEffect trong React để thực hiện các thao tác có liên quan đến slide effects, chẳng hạn như gọi api khi component được render
   //1. useEffect nhận vào 1 hàm callBack và 1 mảng dependency. Trong trường hợp mảng dependency được truyền vào là [], nghĩa là useEffect sẽ chỉ được gọi 
@@ -36,10 +37,10 @@ export default function Catalog() {
     if(!filtersLoaded) dispatch(fetchFilters());
   },[dispatch, filtersLoaded])
 
-  if(status.includes('pending'))return <LoadingComponent message='Loading products...'/>
+  if(!filtersLoaded)return <LoadingComponent message='Loading products...'/>
 
     return (
-        <Grid container spacing={4}>
+        <Grid container columnSpacing={4}>
           <Grid item xs={3}>
             <Paper sx={{mb:2}}>
               <ProductSearch/>
@@ -70,18 +71,12 @@ export default function Catalog() {
             <ProductList products={products}/>
           </Grid>
           <Grid item xs={3}/>
-          <Grid item xs={9}>
-            <Box display='flex' justifyContent='space-between' alignItems='center'>
-                  <Typography>
-                    Displaying 1-6 of 20 items
-                  </Typography>
-                  <Pagination 
-                    color='secondary'
-                    size='large'
-                    count={10}
-                    page={2}
-                  />
-            </Box>
+          <Grid item xs={9} sx={{mb:2}}>
+            {metaData&&
+            <AppPagination 
+              metaData={metaData}
+              onPageChange={(page:number)=>dispatch(setPageNumber({pageNumber:page}))}
+            />}
           </Grid>
             {/* nút addProduct được hiển thị bên dưới danh sách sản phẩm , khi người dùng bấm vào nút này thì hàm addProduct() sẽ được gọi để thêm 1 sản phẩm mới vào danh sách */}
         </Grid>
