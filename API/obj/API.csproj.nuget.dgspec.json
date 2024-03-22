@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UDEMY\\.NETReact\\demo\\ReStore\\api\\API.csproj": {}
+    "D:\\UDEMY\\.NETReact\\demo\\ReStore\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\UDEMY\\.NETReact\\demo\\ReStore\\api\\API.csproj": {
+    "D:\\UDEMY\\.NETReact\\demo\\ReStore\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UDEMY\\.NETReact\\demo\\ReStore\\api\\API.csproj",
+        "projectUniqueName": "D:\\UDEMY\\.NETReact\\demo\\ReStore\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\UDEMY\\.NETReact\\demo\\ReStore\\api\\API.csproj",
+        "projectPath": "D:\\UDEMY\\.NETReact\\demo\\ReStore\\API\\API.csproj",
         "packagesPath": "C:\\Users\\AD\\.nuget\\packages\\",
-        "outputPath": "D:\\UDEMY\\.NETReact\\demo\\ReStore\\api\\obj\\",
+        "outputPath": "D:\\UDEMY\\.NETReact\\demo\\ReStore\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AD\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
