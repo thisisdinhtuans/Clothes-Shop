@@ -21,7 +21,9 @@ builder.Services.AddDbContext<StoreContext>(opt=>{
 //Dòng này được sử dụng để thêm dịch vụ CORS vào hệ thống dịch vụ của ứng dụng.
 builder.Services.AddCors();
 
-builder.Services.AddIdentityCore<User>()
+builder.Services.AddIdentityCore<User>(opt=>{
+    opt.User.RequireUniqueEmail=true;
+})
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<StoreContext>();
 
