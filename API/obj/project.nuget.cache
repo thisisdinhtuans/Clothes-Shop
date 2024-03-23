@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "csPGLn99oTidVOB7bZd5OcVP0KGpAhNL3tfOHGF63eY0ulM5Zall9mC8yeWmbV0TnRWvP6FOUS6DjaptEfPh7Q==",
+  "dgSpecHash": "7zaZTSWST5QmcoAsvigHYnAtOCVeq2Lan5XUgrFw/jOKkZpF4F+QoH98KOg1cdDQCcxndfbGaLkMypy3dxsknQ==",
   "success": true,
-  "projectFilePath": "D:\\UDEMY\\.NETReact\\demo\\ReStore\\API\\API.csproj",
+  "projectFilePath": "D:\\UDEMY\\.NETReact\\demo\\ReStore\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AD\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\AD\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.3\\microsoft.aspnetcore.authentication.jwtbearer.8.0.3.nupkg.sha512",

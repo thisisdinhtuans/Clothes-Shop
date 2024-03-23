@@ -1,5 +1,7 @@
 using API.Data;
+using API.Entities;
 using API.Middleware;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +20,13 @@ builder.Services.AddDbContext<StoreContext>(opt=>{
 });
 //Dòng này được sử dụng để thêm dịch vụ CORS vào hệ thống dịch vụ của ứng dụng.
 builder.Services.AddCors();
+
+builder.Services.AddIdentityCore<User>()
+    .AddRoles<IdentityRole>()
+    .AddEntityFrameworkStores<StoreContext>();
+
+builder.Services.AddAuthentication();
+builder.Services.AddAuthorization();
 var app = builder.Build();
 app.UseMiddleware<ExceptionMiddleware>();
 
@@ -45,11 +54,12 @@ app.MapControllers();
 
 var scope = app.Services.CreateScope();
 var context = scope.ServiceProvider.GetRequiredService<StoreContext>();
+var userManager=scope.ServiceProvider.GetRequiredService<UserManager<User>>();
 var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
 try
 {
     context.Database.Migrate();
-    DbInitializer.Initialize(context);   
+    await DbInitializer.Initialize(context, userManager);
 }
 catch (Exception ex)
 {
