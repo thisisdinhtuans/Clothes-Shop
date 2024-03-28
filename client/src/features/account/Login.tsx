@@ -12,10 +12,16 @@ import { LoadingButton } from '@mui/lab';
 
 
 export default function Login() {
-    const {register, handleSubmit, formState: {isSubmitting}}=useForm()
+    const {register, handleSubmit, formState: {isSubmitting, errors, isValid}}=useForm( {
+        mode:'onTouched'
+    })
 
     function submitForm(data:FieldValues) {
-        agent.Account.login(data);
+        try {
+            agent.Account.login(data);
+        } catch(error) {
+            console.log(error);
+        }
     }
   return (
       <Container component={Paper} maxWidth="sm" 
@@ -32,17 +38,22 @@ export default function Login() {
               fullWidth
               label="Username"
               autoFocus
-              {...register('username')}
+              {...register('username',{required:'Username is required'})}
+              error={!!errors.username}
+              helperText={errors?.username?.message as string}
             />
             <TextField
               margin="normal"
               fullWidth
               label="Password"
               type="password"
-              {...register('password')}
+              {...register('password',{required:'Password is required'})}
+              error={!!errors.password}
+              helperText={errors?.password?.message as string}
             />
-            <LoadingButton
-                loading={isSubmitting}
+            <LoadingButton loading={isSubmitting}
+            //chỉ khi điền đủ thì cái nút đăng nhập mới bấm được
+                disabled={!isValid}
               type="submit"
               fullWidth
               variant="contained"
