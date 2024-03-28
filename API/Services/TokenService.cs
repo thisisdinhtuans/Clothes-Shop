@@ -20,6 +20,7 @@ namespace API.Services
         }
         public async Task<string>GenerateToken(User user) 
         {
+            //Tạo claims về thông tin người dùng
             var claims=new List<Claim>
             {
                 new Claim(ClaimTypes.Email, user.Email),
@@ -31,16 +32,21 @@ namespace API.Services
                 claims.Add(new Claim(ClaimTypes.Role,role));
             }
 
+            //tạo khóa bí mật
             var key=new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["JWTSettings:TokenKey"]));
+            //tạo mã ký và mã hóa
             var creds=new SigningCredentials(key,SecurityAlgorithms.HmacSha512);
 
+            //thiết lập cấu hình token
             var tokenOptions=new JwtSecurityToken(
                 issuer:null,
                 audience:null,
                 claims:claims,
+                //thời gian hết hạn của token
                 expires:DateTime.Now.AddDays(7),
                 signingCredentials:creds
             );
+            //trả về token dưới dạng chuỗi
             return new JwtSecurityTokenHandler().WriteToken(tokenOptions);
         }
     }

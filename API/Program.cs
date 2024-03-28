@@ -26,11 +26,11 @@ builder.Services.AddSwaggerGen(c=>
         In=ParameterLocation.Header,
         Type=SecuritySchemeType.ApiKey,
         Scheme=JwtBearerDefaults.AuthenticationScheme,
-        Description="Put Bearer + your token in the box below",
+        Description="Put Bearer + your token in the Stack below",
         Reference = new OpenApiReference
         {
             Id=JwtBearerDefaults.AuthenticationScheme,
-        Type=ReferenceType.SecurityScheme,
+            Type=ReferenceType.SecurityScheme,
         }
     };
 
@@ -52,8 +52,8 @@ builder.Services.AddDbContext<StoreContext>(opt=>{
 builder.Services.AddCors();
 
 builder.Services.AddIdentityCore<User>(opt=>{
-    opt.User.RequireUniqueEmail=true;
-})
+        opt.User.RequireUniqueEmail=true;
+    })
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<StoreContext>();
 
@@ -68,7 +68,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateIssuerSigningKey=true,
             IssuerSigningKey=new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWTSettings:TokenKey"]))
         };
-    });
+    }
+);
 builder.Services.AddAuthorization();
 builder.Services.AddScoped<TokenService>();
 var app = builder.Build();
