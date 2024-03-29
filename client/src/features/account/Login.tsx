@@ -20,8 +20,14 @@ export default function Login() {
     })
 
     async function submitForm(data:FieldValues) {
+      try 
+      {
         await dispatch(signInUser(data));
         navigate('/catalog');
+      } catch (error:any) 
+      {
+        console.log(error);
+      }
     }
   return (
       <Container component={Paper} maxWidth="sm" 
