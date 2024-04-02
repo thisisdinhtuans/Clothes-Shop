@@ -172,3 +172,16 @@ D:\UDEMY\.NETReact\demo\ReStore\api\bin\Debug\net8.0\Microsoft.IdentityModel.Pro
 D:\UDEMY\.NETReact\demo\ReStore\api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\UDEMY\.NETReact\demo\ReStore\api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 D:\UDEMY\.NETReact\demo\ReStore\api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\UDEMY\.NETReact\demo\ReStore\api\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\UDEMY\.NETReact\demo\ReStore\api\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\UDEMY\.NETReact\demo\ReStore\api\bin\Debug\net8.0\Stripe.net.dll
+D:\UDEMY\.NETReact\demo\ReStore\api\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\UDEMY\.NETReact\demo\ReStore\api\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\UDEMY\.NETReact\demo\ReStore\api\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\UDEMY\.NETReact\demo\ReStore\api\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\UDEMY\.NETReact\demo\ReStore\api\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\UDEMY\.NETReact\demo\ReStore\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\UDEMY\.NETReact\demo\ReStore\api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\UDEMY\.NETReact\demo\ReStore\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\UDEMY\.NETReact\demo\ReStore\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\UDEMY\.NETReact\demo\ReStore\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
