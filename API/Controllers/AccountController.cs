@@ -23,31 +23,31 @@ namespace API.Controllers
             _context = context;
             _userManager = userManager;
         }
-        [HttpPost("Login")]
-        public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
+        [HttpPost("login")]
+    public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
+    {
+        var user = await _userManager.FindByNameAsync(loginDto.Username);
+        if (user == null || !await _userManager.CheckPasswordAsync(user, loginDto.Password))
+            return Unauthorized();
+
+        var userBasket = await RetrieveBasket(loginDto.Username);
+        var anonBasket = await RetrieveBasket(Request.Cookies["buyerId"]);
+
+        if (anonBasket != null)
         {
-            var user=await _userManager.FindByNameAsync(loginDto.Username);
-            if(user==null || !await _userManager.CheckPasswordAsync(user, loginDto.Password))
-                return Unauthorized();
-
-            var userBasket=await RetrieveBasket(loginDto.Username);
-            var anonBasket=await RetrieveBasket(Request.Cookies["buyerId"]);
-
-            if(anonBasket!=null) {
-                if(userBasket!=null) _context.Baskets.Remove(userBasket);
-                anonBasket.BuyerId=user.UserName;
-                Response.Cookies.Delete("buyerId");
-                await _context.SaveChangesAsync();
-            }
-
-            return new UserDto 
-            {
-                Email=user.Email,
-                Token=await _tokenService.GenerateToken(user),
-                Basket=anonBasket!=null ? anonBasket.MapBasketToDto() : userBasket.MapBasketToDto()
-            };
+            if (userBasket != null) _context.Baskets.Remove(userBasket);
+            anonBasket.BuyerId = user.UserName;
+            Response.Cookies.Delete("buyerId");
+            await _context.SaveChangesAsync();
         }
 
+        return new UserDto
+        {
+            Email = user.Email,
+            Token = await _tokenService.GenerateToken(user),
+            Basket = anonBasket != null ? anonBasket.MapBasketToDto() : userBasket?.MapBasketToDto()
+        };
+    }
         [HttpPost("Register")]
         public async Task<ActionResult<User>> Register(RegisterDto registerDto) {
             var user=new User{UserName=registerDto.Username, Email=registerDto.Email};
@@ -64,6 +64,12 @@ namespace API.Controllers
             await _userManager.AddToRoleAsync(user, "Member");
             return StatusCode(201);
         }
+        //đã có authorize ở đây thì phải khi đăng nhập mới có thể xem được
+
+        // nó sẽ theo sơ đồ này, trả về 1 UserDto
+        // UserDto
+	    //     BasketDto
+		//         BasketItemDto
         [Authorize]
         [HttpGet("currentUser")]
         public async Task<ActionResult<UserDto>> GetCurrentUser()
@@ -75,6 +81,8 @@ namespace API.Controllers
             {
                 Email=user.Email,
                 Token=await _tokenService.GenerateToken(user),
+                //userBasket can be null
+                //tức là nó sẽ không trả về PaymentIntentId và ClientSecret
                 Basket=userBasket?.MapBasketToDto(),
             };
         }

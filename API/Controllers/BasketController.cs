@@ -82,6 +82,8 @@ namespace API.Controllers
             var buyerId=User.Identity?.Name;
             if(string.IsNullOrEmpty(buyerId))
             {
+                //nếu buyerId rỗng thì sẽ được tạo mới ngẫu nhiên bằng Guid
+                //Guid là công cụ hữu ích đảm bảo tính duy nhất 
                 buyerId=Guid.NewGuid().ToString();
                 var cookieOptions=new CookieOptions{IsEssential=true, Expires=DateTime.Now.AddDays(30)};
                 Response.Cookies.Append("buyerId", buyerId, cookieOptions);
