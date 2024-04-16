@@ -13,7 +13,7 @@ export default function ProductDetails() {
     const dispatch=useAppDispatch();
     //Hook useParams được sử dụng để lấy các tham số từ URL. trong trường hợp này, id được trích xuất từ URL để viết sản phẩm cụ thế mà chúng ta đam xem chi tiết
     const {id} = useParams<{id:string}>();
-    const product = useAppSelector(state => productSelectors.selectById(state, id!));
+    const product = useAppSelector(state => productSelectors.selectById(state, parseInt(id!)));
     const {status:productStatus}=useAppSelector(state=>state.catalog);
     const [quantity, setQuantity] =useState(0);
     const item = basket?.items.find(i =>i.productId===product?.id);
