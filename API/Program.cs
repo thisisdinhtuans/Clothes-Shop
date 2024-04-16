@@ -86,6 +86,11 @@ if (app.Environment.IsDevelopment())
         c.ConfigObject.AdditionalItems.Add("persistAuthorization","true");
     });
 }
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
+app.MapControllers();
+app.MapFallbackToController("Index","Fallback");
 
 //Đây là cấu hình cụ thể của CORS. Bạn đang chỉ định rằng bất kỳ trang web nào có nguồn gốc từ http://localhost:3000 (domain này) được phép gửi yêu cầu tới API của bạn. 
 //AllowAnyHeader() cho phép bất kỳ header nào trong yêu cầu, 
