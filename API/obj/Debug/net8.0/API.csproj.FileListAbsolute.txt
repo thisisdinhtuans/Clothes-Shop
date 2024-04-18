@@ -341,3 +341,5 @@ D:\Big\.NETReact\demo\ReStore\api\obj\Debug\net8.0\API.pdb
 D:\Big\.NETReact\demo\ReStore\api\obj\Debug\net8.0\API.genruntimeconfig.cache
 D:\Big\.NETReact\demo\ReStore\api\obj\Debug\net8.0\ref\API.dll
 D:\Big\.NETReact\demo\ReStore\api\bin\Debug\net8.0\API.staticwebassets.runtime.json
+D:\Big\.NETReact\demo\ReStore\api\bin\Debug\net8.0\Npgsql.dll
+D:\Big\.NETReact\demo\ReStore\api\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
