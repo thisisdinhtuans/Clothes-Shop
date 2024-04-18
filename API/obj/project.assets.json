@@ -3998,11 +3998,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Big\\.NETReact\\demo\\ReStore\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\Big\\.NETReact\\demo\\ReStore\\API\\API.csproj",
+      "projectPath": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\API.csproj",
       "packagesPath": "C:\\Users\\AD\\.nuget\\packages\\",
-      "outputPath": "D:\\Big\\.NETReact\\demo\\ReStore\\API\\obj\\",
+      "outputPath": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AD\\AppData\\Roaming\\NuGet\\NuGet.Config",
