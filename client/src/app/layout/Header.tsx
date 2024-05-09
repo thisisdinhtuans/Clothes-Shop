@@ -5,7 +5,7 @@ import { useAppSelector } from '../store/configureStore';
 import SignedInMenu from './SignedInMenu';
 
 const midLinks = [
-    { title: 'catalog', path: '/catalog' },
+    { title: 'shop', path: '/catalog' },
     { title: 'about', path: '/about' },
     { title: 'contact', path: '/contact' }
 ]
@@ -38,7 +38,7 @@ export default function Header({ handleThemeChange, darkMode }: Props) {
     const itemCount = basket?.items.reduce((sum, item) => sum + item.quantity, 0);
 
     return (
-        <AppBar position='static'>
+        <AppBar position='static' sx={{ backgroundColor: 'white', color: 'black' }}>
             <Toolbar sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <Box display='flex' alignItems='center'>
                     <Typography
@@ -47,7 +47,7 @@ export default function Header({ handleThemeChange, darkMode }: Props) {
                         to='/'
                         sx={navLinkStyles}
                     >
-                        RE-STORE
+                        ARISTINO
                     </Typography>
                     <Switch checked={darkMode} onChange={handleThemeChange} />
                 </Box>
