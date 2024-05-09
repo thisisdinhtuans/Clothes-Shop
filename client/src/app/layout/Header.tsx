@@ -46,7 +46,7 @@ export default function Header({darkMode, handleThemeChange}:Props) {
                         to='/'
                         sx={navStyles}    
                     >
-                        RE-STORE
+                        Nike
                     </Typography>
                     <Switch checked={darkMode} onChange={handleThemeChange}/>
                 </Box>
@@ -61,6 +61,14 @@ export default function Header({darkMode, handleThemeChange}:Props) {
                             {title.toUpperCase()}
                         </ListItem>
                     ))}
+                    {user &&
+                    <ListItem
+                            component={NavLink}
+                            to={'/inventory'}
+                            sx={navStyles}
+                        >
+                        INVENTORY
+                        </ListItem>}
                 </List>
                 {/* //display='flex' alignItems='center' để cho nó ngang hàng vs nhau */}
                 <Box display='flex' alignItems='center'>
