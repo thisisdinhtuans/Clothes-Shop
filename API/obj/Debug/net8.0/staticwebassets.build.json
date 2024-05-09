@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kIFFKAs3e8tGHbz9xV/yC69OLuQm37k9+HQ0gvrx1wc=",
+  "Hash": "WE8vQV8AhmKYm3UEx01p1GkenDeFdxQwx/SGxhuM09A=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "API\\wwwroot",
       "Source": "API",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\ajax-loader-BcnMEykj.gif",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\ajax-loader-BcnMEykj.gif",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/ajax-loader-BcnMEykj.gif",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\ajax-loader-BcnMEykj.gif"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\index-CDtBJldL.js",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\index-CDtBJldL.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/index-CDtBJldL.js",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\index-CDtBJldL.js"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\index-CS-0UVrS.css",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\index-CS-0UVrS.css",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/index-CS-0UVrS.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\index-CS-0UVrS.css"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-cyrillic-300-normal-D6mjswgs.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-cyrillic-300-normal-D6mjswgs.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-300-normal-D6mjswgs.woff2",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-300-normal-D6mjswgs.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-cyrillic-300-normal-UX5PCucy.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-cyrillic-300-normal-UX5PCucy.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-300-normal-UX5PCucy.woff",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-300-normal-UX5PCucy.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-cyrillic-400-normal-DCQqOlfN.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-cyrillic-400-normal-DCQqOlfN.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-400-normal-DCQqOlfN.woff",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-400-normal-DCQqOlfN.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-cyrillic-400-normal-DVDTZtmW.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-cyrillic-400-normal-DVDTZtmW.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-400-normal-DVDTZtmW.woff2",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-400-normal-DVDTZtmW.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-cyrillic-500-normal-DAkZhMOh.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-cyrillic-500-normal-DAkZhMOh.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-500-normal-DAkZhMOh.woff2",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-500-normal-DAkZhMOh.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-cyrillic-500-normal-QpWeYsca.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-cyrillic-500-normal-QpWeYsca.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-500-normal-QpWeYsca.woff",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-500-normal-QpWeYsca.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-cyrillic-700-normal-B5ZBKWCH.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-cyrillic-700-normal-B5ZBKWCH.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-700-normal-B5ZBKWCH.woff2",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-700-normal-B5ZBKWCH.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-cyrillic-700-normal-DAIxw5xX.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-cyrillic-700-normal-DAIxw5xX.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-700-normal-DAIxw5xX.woff",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-700-normal-DAIxw5xX.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-cyrillic-ext-300-normal-C7AGhuC_.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-cyrillic-ext-300-normal-C7AGhuC_.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-ext-300-normal-C7AGhuC_.woff",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-ext-300-normal-C7AGhuC_.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-cyrillic-ext-300-normal-TzZWIuiO.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-cyrillic-ext-300-normal-TzZWIuiO.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-ext-300-normal-TzZWIuiO.woff2",
       "AssetKind": "All",
@@ -264,29 +264,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-ext-300-normal-TzZWIuiO.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-cyrillic-ext-400-normal-DORK9bGA.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-cyrillic-ext-400-normal--KougVX-.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
-      "BasePath": "_content/API",
-      "RelativePath": "assets/roboto-cyrillic-ext-400-normal-DORK9bGA.woff2",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-ext-400-normal-DORK9bGA.woff2"
-    },
-    {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-cyrillic-ext-400-normal--KougVX-.woff",
-      "SourceId": "API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-ext-400-normal--KougVX-.woff",
       "AssetKind": "All",
@@ -302,10 +283,29 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-ext-400-normal--KougVX-.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-cyrillic-ext-500-normal-G9W8hgzQ.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-cyrillic-ext-400-normal-DORK9bGA.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "assets/roboto-cyrillic-ext-400-normal-DORK9bGA.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-ext-400-normal-DORK9bGA.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-cyrillic-ext-500-normal-G9W8hgzQ.woff2",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-ext-500-normal-G9W8hgzQ.woff2",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-ext-500-normal-G9W8hgzQ.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-cyrillic-ext-500-normal-sraxM_lR.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-cyrillic-ext-500-normal-sraxM_lR.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-ext-500-normal-sraxM_lR.woff",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-ext-500-normal-sraxM_lR.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-cyrillic-ext-700-normal-CsrCEJIc.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-cyrillic-ext-700-normal-CsrCEJIc.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-ext-700-normal-CsrCEJIc.woff2",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-ext-700-normal-CsrCEJIc.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-cyrillic-ext-700-normal-dDOtDc5i.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-cyrillic-ext-700-normal-dDOtDc5i.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-cyrillic-ext-700-normal-dDOtDc5i.woff",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-cyrillic-ext-700-normal-dDOtDc5i.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-greek-300-normal-Dgbe-dnN.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-greek-300-normal-Dgbe-dnN.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-greek-300-normal-Dgbe-dnN.woff",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-greek-300-normal-Dgbe-dnN.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-greek-300-normal-ndiuWqED.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-greek-300-normal-ndiuWqED.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-greek-300-normal-ndiuWqED.woff2",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-greek-300-normal-ndiuWqED.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-greek-400-normal-BnGNaKeW.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-greek-400-normal-BnGNaKeW.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-greek-400-normal-BnGNaKeW.woff",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-greek-400-normal-BnGNaKeW.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-greek-400-normal-BRWHCUYo.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-greek-400-normal-BRWHCUYo.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-greek-400-normal-BRWHCUYo.woff2",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-greek-400-normal-BRWHCUYo.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-greek-500-normal-CpESfwfG.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-greek-500-normal-CpESfwfG.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-greek-500-normal-CpESfwfG.woff2",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-greek-500-normal-CpESfwfG.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-greek-500-normal-CVjdsdX9.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-greek-500-normal-CVjdsdX9.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-greek-500-normal-CVjdsdX9.woff",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-greek-500-normal-CVjdsdX9.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-greek-700-normal-Cc2Tq8FV.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-greek-700-normal-Cc2Tq8FV.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-greek-700-normal-Cc2Tq8FV.woff2",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-greek-700-normal-Cc2Tq8FV.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-greek-700-normal-CjuTpGfE.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-greek-700-normal-CjuTpGfE.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-greek-700-normal-CjuTpGfE.woff",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-greek-700-normal-CjuTpGfE.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-latin-300-normal-Cs84CNT2.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-latin-300-normal-Cs84CNT2.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-300-normal-Cs84CNT2.woff",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-300-normal-Cs84CNT2.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-latin-300-normal-ThHrQhYb.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-latin-300-normal-ThHrQhYb.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-300-normal-ThHrQhYb.woff2",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-300-normal-ThHrQhYb.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-latin-400-normal-BU1SoK4h.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-latin-400-normal-BU1SoK4h.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-400-normal-BU1SoK4h.woff",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-400-normal-BU1SoK4h.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-latin-400-normal-mTIRXP6Y.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-latin-400-normal-mTIRXP6Y.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-400-normal-mTIRXP6Y.woff2",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-400-normal-mTIRXP6Y.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-latin-500-normal-Dcm-rhWF.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-latin-500-normal-Dcm-rhWF.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-500-normal-Dcm-rhWF.woff",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-500-normal-Dcm-rhWF.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-latin-500-normal-Dxdx3aXO.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-latin-500-normal-Dxdx3aXO.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-500-normal-Dxdx3aXO.woff2",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-500-normal-Dxdx3aXO.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-latin-700-normal-Bh431LEL.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-latin-700-normal-Bh431LEL.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-700-normal-Bh431LEL.woff",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-700-normal-Bh431LEL.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-latin-700-normal-CeM5gOv8.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-latin-700-normal-CeM5gOv8.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-700-normal-CeM5gOv8.woff2",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-700-normal-CeM5gOv8.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-latin-ext-300-normal-CaUuWeqj.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-latin-ext-300-normal-CaUuWeqj.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-ext-300-normal-CaUuWeqj.woff",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-ext-300-normal-CaUuWeqj.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-latin-ext-300-normal-DEsNdRC-.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-latin-ext-300-normal-DEsNdRC-.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-ext-300-normal-DEsNdRC-.woff2",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-ext-300-normal-DEsNdRC-.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-latin-ext-400-normal-4bLplyDh.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-latin-ext-400-normal-4bLplyDh.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-ext-400-normal-4bLplyDh.woff2",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-ext-400-normal-4bLplyDh.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-latin-ext-400-normal-ABAIaefi.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-latin-ext-400-normal-ABAIaefi.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-ext-400-normal-ABAIaefi.woff",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-ext-400-normal-ABAIaefi.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-latin-ext-500-normal-B9pAx_JH.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-latin-ext-500-normal-B9pAx_JH.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-ext-500-normal-B9pAx_JH.woff",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-ext-500-normal-B9pAx_JH.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-latin-ext-500-normal-BWKy6SgX.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-latin-ext-500-normal-BWKy6SgX.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-ext-500-normal-BWKy6SgX.woff2",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-ext-500-normal-BWKy6SgX.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-latin-ext-700-normal-BYGCo3Go.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-latin-ext-700-normal-BYGCo3Go.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-ext-700-normal-BYGCo3Go.woff2",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-ext-700-normal-BYGCo3Go.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-latin-ext-700-normal-DwUXTeTv.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-latin-ext-700-normal-DwUXTeTv.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-latin-ext-700-normal-DwUXTeTv.woff",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-latin-ext-700-normal-DwUXTeTv.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-vietnamese-300-normal-CnPrVvBs.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-vietnamese-300-normal-CnPrVvBs.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-vietnamese-300-normal-CnPrVvBs.woff2",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-vietnamese-300-normal-CnPrVvBs.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-vietnamese-300-normal-DOxDZ6bW.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-vietnamese-300-normal-DOxDZ6bW.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-vietnamese-300-normal-DOxDZ6bW.woff",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-vietnamese-300-normal-DOxDZ6bW.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-vietnamese-400-normal-BkEBOAV9.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-vietnamese-400-normal-BkEBOAV9.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-vietnamese-400-normal-BkEBOAV9.woff",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-vietnamese-400-normal-BkEBOAV9.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-vietnamese-400-normal-kCRe3VZk.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-vietnamese-400-normal-kCRe3VZk.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-vietnamese-400-normal-kCRe3VZk.woff2",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-vietnamese-400-normal-kCRe3VZk.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-vietnamese-500-normal-Bwg8Dbh6.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-vietnamese-500-normal-Bwg8Dbh6.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-vietnamese-500-normal-Bwg8Dbh6.woff",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-vietnamese-500-normal-Bwg8Dbh6.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-vietnamese-500-normal-CcijQRVW.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-vietnamese-500-normal-CcijQRVW.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-vietnamese-500-normal-CcijQRVW.woff2",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-vietnamese-500-normal-CcijQRVW.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-vietnamese-700-normal-Mc0c6qif.woff",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-vietnamese-700-normal-Mc0c6qif.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-vietnamese-700-normal-Mc0c6qif.woff",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-vietnamese-700-normal-Mc0c6qif.woff"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\roboto-vietnamese-700-normal-SekShQfT.woff2",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\roboto-vietnamese-700-normal-SekShQfT.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/roboto-vietnamese-700-normal-SekShQfT.woff2",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\roboto-vietnamese-700-normal-SekShQfT.woff2"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\assets\\slick-BlzDm7g2.svg",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\assets\\slick-BlzDm7g2.svg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/slick-BlzDm7g2.svg",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\slick-BlzDm7g2.svg"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\hero1.jpg",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\hero1.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/hero1.jpg",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hero1.jpg"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\hero2.jpg",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\hero2.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/hero2.jpg",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hero2.jpg"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\hero3.jpg",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\hero3.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/hero3.jpg",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hero3.jpg"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\logo.png",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\logo.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/logo.png",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\placeholder.png",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\placeholder.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/placeholder.png",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\images\\placeholder.png"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\products\\boot-ang1.png",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\products\\boot-ang1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/boot-ang1.png",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\boot-ang1.png"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\products\\boot-ang2.png",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\products\\boot-ang2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/boot-ang2.png",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\boot-ang2.png"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\products\\boot-core1.png",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\products\\boot-core1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/boot-core1.png",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\boot-core1.png"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\products\\boot-core2.png",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\products\\boot-core2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/boot-core2.png",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\boot-core2.png"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\products\\boot-redis1.png",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\products\\boot-redis1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/boot-redis1.png",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\boot-redis1.png"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\products\\db4a852a13ecfe9889c77db9f4d2483a.jpg",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\products\\db4a852a13ecfe9889c77db9f4d2483a.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/db4a852a13ecfe9889c77db9f4d2483a.jpg",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\db4a852a13ecfe9889c77db9f4d2483a.jpg"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\products\\glove-code1.png",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\products\\glove-code1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/glove-code1.png",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\glove-code1.png"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\products\\glove-code2.png",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\products\\glove-code2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/glove-code2.png",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\glove-code2.png"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\products\\glove-react1.png",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\products\\glove-react1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/glove-react1.png",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\glove-react1.png"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\products\\glove-react2.png",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\products\\glove-react2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/glove-react2.png",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\glove-react2.png"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\products\\hat-core1.png",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\products\\hat-core1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/hat-core1.png",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\hat-core1.png"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\products\\hat-react1.png",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\products\\hat-react1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/hat-react1.png",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\hat-react1.png"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\products\\hat-react2.png",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\products\\hat-react2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/hat-react2.png",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\hat-react2.png"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\products\\sb-ang1.png",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\products\\sb-ang1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-ang1.png",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-ang1.png"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\products\\sb-ang2.png",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\products\\sb-ang2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-ang2.png",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-ang2.png"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\products\\sb-core1.png",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\products\\sb-core1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-core1.png",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-core1.png"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\products\\sb-core2.png",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\products\\sb-core2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-core2.png",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-core2.png"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\products\\sb-react1.png",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\products\\sb-react1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-react1.png",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-react1.png"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\images\\products\\sb-ts1.png",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\products\\sb-ts1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "images/products/sb-ts1.png",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\sb-ts1.png"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\index.html",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\vite.svg",
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\vite.svg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "vite.svg",
       "AssetKind": "All",
