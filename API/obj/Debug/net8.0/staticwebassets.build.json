@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ErzurNrQjRiYPqRLSQwNnqGWdyU8sXB2OAxQJsypxpo=",
+  "Hash": "WE8vQV8AhmKYm3UEx01p1GkenDeFdxQwx/SGxhuM09A=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\boot-redis1.png"
+    },
+    {
+      "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\products\\db4a852a13ecfe9889c77db9f4d2483a.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/products/db4a852a13ecfe9889c77db9f4d2483a.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\db4a852a13ecfe9889c77db9f4d2483a.jpg"
     },
     {
       "Identity": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\wwwroot\\images\\products\\glove-code1.png",

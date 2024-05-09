@@ -500,3 +500,6 @@ C:\Users\AD\Downloads\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4
 C:\Users\AD\Downloads\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\api\obj\Debug\net8.0\API.pdb
 C:\Users\AD\Downloads\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\api\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\AD\Downloads\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\api\obj\Debug\net8.0\ref\API.dll
+C:\Users\AD\Downloads\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\api\obj\Debug\net8.0\API.sourcelink.json
+C:\Users\AD\Downloads\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\AD\Downloads\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
