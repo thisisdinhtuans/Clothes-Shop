@@ -49,7 +49,7 @@ export default function Inventory() {
                     size='large' variant='contained'
                     onClick={() => setEditMode(true)}
                 >
-                    Create
+                    Tạo sản phẩm mới
                 </Button>
             </Box>
             <TableContainer component={Paper}>
@@ -57,11 +57,11 @@ export default function Inventory() {
                     <TableHead>
                         <TableRow>
                             <TableCell>#</TableCell>
-                            <TableCell align="left">Product</TableCell>
-                            <TableCell align="right">Price</TableCell>
-                            <TableCell align="center">Type</TableCell>
-                            <TableCell align="center">Brand</TableCell>
-                            <TableCell align="center">Quantity</TableCell>
+                            <TableCell align="left">Sản phẩm</TableCell>
+                            <TableCell align="right">Gía</TableCell>
+                            <TableCell align="center">Loại</TableCell>
+                            <TableCell align="center">Thương hiệu</TableCell>
+                            <TableCell align="center">Số lượng</TableCell>
                             <TableCell align="right"></TableCell>
                         </TableRow>
                     </TableHead>

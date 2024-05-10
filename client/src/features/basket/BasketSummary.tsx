@@ -18,20 +18,20 @@ export default function BasketSummary({subtotal}: Props) {
                 <Table>
                     <TableBody>
                         <TableRow>
-                            <TableCell colSpan={2}>Subtotal</TableCell>
+                            <TableCell colSpan={2}>Gía sản phẩm</TableCell>
                             <TableCell align="right">{currencyFormat(subtotal)}</TableCell>
                         </TableRow>
                         <TableRow>
-                            <TableCell colSpan={2}>Delivery fee*</TableCell>
+                            <TableCell colSpan={2}>Phí vận chuyển*</TableCell>
                             <TableCell align="right">{currencyFormat(deliveryFee)}</TableCell>
                         </TableRow>
                         <TableRow>
-                            <TableCell colSpan={2}>Total</TableCell>
+                            <TableCell colSpan={2}>Tổng tiền</TableCell>
                             <TableCell align="right">{currencyFormat(subtotal + deliveryFee)}</TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell>
-                                <span style={{fontStyle: 'italic'}}>*Orders over $100 qualify for free delivery</span>
+                                <span style={{fontStyle: 'italic'}}>*Đơn hàng trên 1.000.000đ được miễn phí vận chuyển</span>
                             </TableCell>
                         </TableRow>
                     </TableBody>

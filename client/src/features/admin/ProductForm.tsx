@@ -52,24 +52,24 @@ export default function ProductForm({ product, cancelEdit }: Props) {
     return (
         <Box component={Paper} sx={{ p: 4 }}>
             <Typography variant="h4" gutterBottom sx={{ mb: 4 }}>
-                Product Details
+                Thông tin sản phẩm
             </Typography>
             <form onSubmit={handleSubmit(handleSubmitData)}>
                 <Grid container spacing={3}>
                     <Grid item xs={12} sm={12}>
-                        <AppTextInput control={control} name='name' label='Product name' />
+                        <AppTextInput control={control} name='name' label='Tên sản phẩm' />
                     </Grid>
                     <Grid item xs={12} sm={6}>
-                        <AppSelectList items={brands} control={control} name='brand' label='Brand' />
+                        <AppSelectList items={brands} control={control} name='brand' label='Thương hiệu' />
                     </Grid>
                     <Grid item xs={12} sm={6}>
-                        <AppSelectList items={types} control={control} name='type' label='Type' />
+                        <AppSelectList items={types} control={control} name='type' label='Loại' />
                     </Grid>
                     <Grid item xs={12} sm={6}>
-                        <AppTextInput type='number' control={control} name='price' label='Price' />
+                        <AppTextInput type='number' control={control} name='price' label='Gía' />
                     </Grid>
                     <Grid item xs={12} sm={6}>
-                        <AppTextInput type='number' control={control} name='quantityInStock' label='Quantity in Stock' />
+                        <AppTextInput type='number' control={control} name='quantityInStock' label='Số lượng trong kho' />
                     </Grid>
                     <Grid item xs={12}>
                         <AppTextInput

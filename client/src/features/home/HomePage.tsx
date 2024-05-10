@@ -17,10 +17,10 @@ export default function HomePage() {
                     <img src="/images/nen1.jpg" alt="hero" style={{ display: 'block', width: '100%', objectFit: 'cover' }} />
                 </div>
                 <div>
-                    <img src="/images/hero2.jpg" alt="hero" style={{ display: 'block', width: '100%', objectFit: 'cover' }} />
+                    <img src="/images/download.jfif" alt="hero" style={{ display: 'block', width: '100%', objectFit: 'cover' }} />
                 </div>
                 <div>
-                    <img src="/images/hero3.jpg" alt="hero" style={{ display: 'block', width: '100%', objectFit: 'cover' }} />
+                    <img src="/images/dirty2.webp" alt="hero" style={{ display: 'block', width: '100%', objectFit: 'cover' }} />
                 </div>
             </Slider>
         </>

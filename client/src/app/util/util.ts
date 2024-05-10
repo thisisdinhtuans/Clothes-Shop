@@ -4,5 +4,16 @@ export function getCookie(key:string) {
   }
 
   export function currencyFormat(amount: number) {
-    return (amount).toFixed(3)+'đ';
-}
+    const formatter = new Intl.NumberFormat('vi-VN', {
+      style: 'currency',
+      currency: 'VND',
+    });
+  
+    // Sử dụng formatter để định dạng số
+    const formattedAmount = formatter.format(amount);
+  
+    // Thay đổi ký hiệu tiền tệ nếu cần
+    const withoutCurrencySymbol = formattedAmount.replace(/[^0-9,.]/g, '');
+  
+    return withoutCurrencySymbol + 'đ'; // Thêm ký hiệu tiền tệ mong muốn
+  }
