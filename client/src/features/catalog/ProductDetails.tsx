@@ -7,6 +7,7 @@ import { LoadingButton } from "@mui/lab";
 import { useAppDispatch, useAppSelector } from "../../app/store/configureStore";
 import { addBasketItemAsync, removeBasketItemAsync } from "../basket/basketSlice";
 import { fetchProductAsync, productSelectors } from "./catalogSlice";
+import { currencyFormat } from "../../app/util/util";
 
 export default function ProductDetails() {
     const {basket, status} =useAppSelector(state=>state.basket);
@@ -54,31 +55,31 @@ export default function ProductDetails() {
             <Grid item xs={6}>
                 <Typography variant='h3'>{product.name}</Typography>
                 <Divider sx={{mb:2}}/>
-                <Typography variant='h5' color='secondary'>${(product.price/100).toFixed(2)}</Typography>
+                <Typography variant='h5' color='secondary'>{currencyFormat(product.price)} đ</Typography>
                 <TableContainer>
                     <Table>
                         <TableBody>
                             <TableRow>
-                                <TableCell>Name</TableCell>
+                                <TableCell>Tên</TableCell>
                                 <TableCell>{product.name}</TableCell>
                             </TableRow>
 
                             <TableRow>
-                                <TableCell>Description</TableCell>
+                                <TableCell>Mô tả</TableCell>
                                 <TableCell>{product.description}</TableCell>
                             </TableRow>
 
                             <TableRow>
-                                <TableCell>Type</TableCell>
+                                <TableCell>Loại</TableCell>
                                 <TableCell>{product.type}</TableCell>
                             </TableRow>
 
                             <TableRow>
-                                <TableCell>Brand</TableCell>
+                                <TableCell>Thương hiệu</TableCell>
                                 <TableCell>{product.brand}</TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableCell>Quantity in stock</TableCell>
+                                <TableCell>Số lượng trong kho</TableCell>
                                 <TableCell>{product.quantityInStock}</TableCell>
                             </TableRow>
                         </TableBody>

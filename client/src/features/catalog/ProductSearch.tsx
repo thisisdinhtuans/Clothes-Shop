@@ -13,7 +13,7 @@ export default function ProductSearch () {
     },1000)
 
     return (<TextField 
-        label='Search products'
+        label='Tìm kiếm...'
         variant='outlined'
         fullWidth
         value={searchTerm || ''}

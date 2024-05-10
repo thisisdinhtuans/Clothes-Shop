@@ -47,9 +47,9 @@ export default function ProductCard({product}:Props) {
         <LoadingButton 
           loading={status.includes('pendingAddItem' + product.id)} 
           onClick={()=>dispatch(addBasketItemAsync({productId: product.id}))} 
-          size="small">Add To Cart</LoadingButton>
+          size="small">Thêm vào giỏ</LoadingButton>
         {/* cái Link này phải import react-router-dom, import sai là lỗi đó */}
-        <Button component={Link} to={`/catalog/${product.id}`} size="small">View</Button>
+        <Button component={Link} to={`/catalog/${product.id}`} size="small">Xem sản phẩm</Button>
       </CardActions>
     </Card>
         // <ListItem key={product.id}>

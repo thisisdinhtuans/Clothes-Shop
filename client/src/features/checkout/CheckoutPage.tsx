@@ -13,7 +13,7 @@ import { LoadingButton } from '@mui/lab';
 import { StripeElementType } from "@stripe/stripe-js";
 import { CardNumberElement, useElements, useStripe } from "@stripe/react-stripe-js";
 
-const steps = ['Shipping address', 'Review your order', 'Payment details'];
+const steps = ['Địa chỉ giao hàng', 'Xem lại đơn hàng của bạn', 'Chi tiết thanh toán'];
 
 
 export default function CheckoutPage() {

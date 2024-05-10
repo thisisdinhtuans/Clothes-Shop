@@ -1,91 +1,103 @@
-import { ShoppingCart } from "@mui/icons-material";
+import { ShoppingCart } from '@mui/icons-material';
 import { AppBar, Badge, Box, IconButton, List, ListItem, Switch, Toolbar, Typography } from "@mui/material";
-import { Link, NavLink } from "react-router-dom";
-import { useAppSelector } from "../store/configureStore";
-import SignedInMenu from "./SignedInMenu";
+import { Link, NavLink } from 'react-router-dom';
+import { useAppSelector } from '../store/configureStore';
+import SignedInMenu from './SignedInMenu';
 
-const midLinks= [
-    {title:'catalog', path:'/catalog'},
-    {title:'about', path:'/about'},
-    {title:'contact', path:'/contact'},
+const midLinks = [
+    { title: 'shop', path: '/catalog' },
+    { title: 'about', path: '/about' },
+    { title: 'contact', path: '/contact' }
 ]
 
-const rightLinks= [
-    {title:'login', path:'/login'},
-    {title:'register', path:'/Register'},
+const rightLinks = [
+    { title: 'login', path: '/login' },
+    { title: 'register', path: '/register' },
 ]
 
-const navStyles= {
-    color:'inherit', 
-    textDecoration:'none',
-    typography:'h6',
-    //để khi mà lướt qua thì nó sẽ có màu
-    '&:hover':{
-        color:'grey.500'
+const navLinkStyles = {
+    color: 'inherit',
+    textDecoration: 'none',
+    typography: 'h6',
+    '&:hover': {
+        color: 'grey.500'
     },
     '&.active': {
-        color:'text.secondary'
+        color: 'text.secondary'
     }
 }
 
 interface Props {
-    darkMode:boolean;
-    handleThemeChange:() => void;
+    darkMode: boolean;
+    handleThemeChange: () => void;
 }
 
-export default function Header({darkMode, handleThemeChange}:Props) {
-    const {basket} =useAppSelector(state=>state.basket);
-    const {user}=useAppSelector(state=>state.account)
-    const itemCount=basket?.items.reduce((sum, item) => sum+item.quantity, 0)
+export default function Header({ handleThemeChange, darkMode }: Props) {
+    const { basket } = useAppSelector(state => state.basket);
+    const { user } = useAppSelector(state => state.account);
+    const itemCount = basket?.items.reduce((sum, item) => sum + item.quantity, 0);
 
     return (
-        <AppBar position='static'>
-            <Toolbar sx={{display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+        <AppBar position='static' sx={{ backgroundColor: 'white', color: 'black' }}>
+            <Toolbar sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <Box display='flex' alignItems='center'>
-                    <Typography variant='h6' component={NavLink} 
+                    <Typography
+                        variant='h6'
+                        component={NavLink}
                         to='/'
-                        sx={navStyles}    
+                        sx={navLinkStyles}
                     >
-                        RE-STORE
+                        ARISTINO
                     </Typography>
-                    <Switch checked={darkMode} onChange={handleThemeChange}/>
+                    <Switch checked={darkMode} onChange={handleThemeChange} />
                 </Box>
-                <List sx={{display:'flex'}}>
-                    {midLinks.map(({title, path})=>(
+
+                <List sx={{ display: 'flex' }}>
+                    {midLinks.map(({ title, path }) => (
                         <ListItem
                             component={NavLink}
                             to={path}
                             key={path}
-                            sx={navStyles}
+                            sx={navLinkStyles}
                         >
                             {title.toUpperCase()}
                         </ListItem>
                     ))}
+                    {user && user.roles?.includes('Admin') &&
+                    <ListItem
+                        component={NavLink}
+                        to={'/inventory'}
+                        sx={navLinkStyles}
+                    >
+                        INVENTORY
+                    </ListItem>}
                 </List>
-                {/* //display='flex' alignItems='center' để cho nó ngang hàng vs nhau */}
+
                 <Box display='flex' alignItems='center'>
-                    <IconButton component={Link} to='/basket' size='large' edge='start' color='inherit' sx={{mr:2}}>
-                        <Badge badgeContent={itemCount} color="secondary">
+                    <IconButton component={Link} to='/basket' size='large' edge='start' color='inherit' sx={{ mr: 2 }}>
+                        <Badge badgeContent={itemCount} color='secondary'>
                             <ShoppingCart />
                         </Badge>
                     </IconButton>
                     {user ? (
                         <SignedInMenu />
-                    ):(
-                        <List sx={{display:'flex'}}>
-                        {rightLinks.map(({title, path})=>(
-                            <ListItem
-                                component={NavLink}
-                                to={path}
-                                key={path}
-                                sx={navStyles}
-                            >
-                                {title.toUpperCase()}
-                            </ListItem>
-                        ))}
-                    </List>
+                    ) : (
+                        <List sx={{ display: 'flex' }}>
+                            {rightLinks.map(({ title, path }) => (
+                                <ListItem
+                                    component={NavLink}
+                                    to={path}
+                                    key={path}
+                                    sx={navLinkStyles}
+                                >
+                                    {title.toUpperCase()}
+                                </ListItem>
+                            ))}
+                        </List>
                     )}
+
                 </Box>
+
             </Toolbar>
         </AppBar>
     )

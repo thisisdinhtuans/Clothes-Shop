@@ -19,10 +19,10 @@ export default function BasketTable({ items, isBasket = true }: Props) {
             <Table sx={{ minWidth: 650 }}>
                 <TableHead>
                     <TableRow>
-                        <TableCell>Product</TableCell>
-                        <TableCell align="right">Price</TableCell>
-                        <TableCell align="center">Quantity</TableCell>
-                        <TableCell align="right">Subtotal</TableCell>
+                        <TableCell>Sản phẩm</TableCell>
+                        <TableCell align="right">Gía</TableCell>
+                        <TableCell align="center">Số lượng</TableCell>
+                        <TableCell align="right">Tổng tiền</TableCell>
                         {isBasket &&
                             <TableCell align="right"></TableCell>}
                     </TableRow>
@@ -39,7 +39,7 @@ export default function BasketTable({ items, isBasket = true }: Props) {
                                     <span>{item.name}</span>
                                 </Box>
                             </TableCell>
-                            <TableCell align="right">${(item.price / 100).toFixed(2)}</TableCell>
+                            <TableCell align="right">{(item.price)}đ</TableCell>
                             <TableCell align="center">
                                 {isBasket &&
                                     <LoadingButton
@@ -61,7 +61,7 @@ export default function BasketTable({ items, isBasket = true }: Props) {
                                         <Add />
                                     </LoadingButton>}
                             </TableCell>
-                            <TableCell align="right">${((item.price / 100) * item.quantity).toFixed(2)}</TableCell>
+                            <TableCell align="right">{((item.price) * item.quantity)}đ</TableCell>
                             {isBasket &&
                                 <TableCell align="right">
                                     <LoadingButton
