@@ -22,7 +22,7 @@ export default function BasketPage() {
           size='large'
           fullWidth  
         >
-          Checkout
+          Thanh Toán
         </Button>
       </Grid>
     </Grid>

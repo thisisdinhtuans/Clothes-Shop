@@ -7,7 +7,7 @@ import LoadingComponent from "../../app/layout/LoadingComponent";
 import agent from "../../app/api/agent";
 import { setBasket } from "../basket/basketSlice";
 
-const stripePromise=loadStripe('pk_test_51P0bzaFL3EFfgVWOIbmNWRyDJBx5rLOMFKZpfmZMnCRxbT3UR9rbN6RLDJ7YW9f5iMom5EkZwKq4JTdVTjrRF4dG00YZorGlwa')
+const stripePromise=loadStripe('pk_test_51PEkJvKdwQXjO09oOtXQmAD71g2UUMNoIPiCvwHtS9qVkw2vKYIiHySAccWUJyZOjg9sdG0h50KMDYq1G85lj3Dp00NvjuMqN8')
 
 export default function CheckoutWrapper() {
     const dispatch=useAppDispatch();
@@ -20,7 +20,7 @@ export default function CheckoutWrapper() {
             .finally(()=>setLoading(false))
     },[dispatch]);
 
-    if(loading)return <LoadingComponent message='Loading checkout ...'/>
+    if(loading)return <LoadingComponent message='Tải xuống đặt hàng ...'/>
 
     return (
         <Elements stripe={stripePromise}>
