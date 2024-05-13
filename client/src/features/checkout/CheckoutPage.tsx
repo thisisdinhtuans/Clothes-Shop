@@ -91,7 +91,7 @@ export default function CheckoutPage() {
                 const orderNumber = await agent.Orders.create({ saveAddress, shippingAddress });
                 setOrderNumber(orderNumber);
                 setPaymentSucceeded(true);
-                setPaymentMessage('Thank you - we have received your payment');
+                setPaymentMessage('Cảm ơn bạn - chúng tôi đã nhận được khoản thanh toán của bạn');
                 setActiveStep(activeStep + 1);
                 dispatch(clearBasket());
                 setLoading(false);
@@ -151,9 +151,7 @@ export default function CheckoutPage() {
                             </Typography>
                             {paymentSucceeded ? (
                                 <Typography variant="subtitle1">
-                                Your order number is #{orderNumber}. We have not emailed your order
-                                confirmation, and will not send you an update when your order has
-                                shipped as this is a fake store!
+                                Số đơn hàng của bạn là #{orderNumber}. Chúng tôi chưa gửi email xác nhận đơn hàng của bạn và sẽ không gửi cho bạn thông tin cập nhật khi đơn hàng của bạn được giao vì đây là cửa hàng giả!
                                 </Typography>
                             ) : (
                                 <Button variant='contained' onClick={handleBack}>

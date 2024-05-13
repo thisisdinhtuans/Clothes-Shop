@@ -20,7 +20,7 @@ export default function Catalog() {
     const { productParams } = useAppSelector(state => state.catalog);
     const dispatch = useAppDispatch();
 
-    if (!filtersLoaded) return <LoadingComponent message='Loading products...' />
+    if (!filtersLoaded) return <LoadingComponent message='Sản phẩm...' />
 
     return (
         <Grid container columnSpacing={4}>

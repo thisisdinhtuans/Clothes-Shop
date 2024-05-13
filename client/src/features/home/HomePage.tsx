@@ -14,13 +14,13 @@ export default function HomePage() {
         <>
             <Slider {...settings}>
                 <div>
-                    <img src="/images/nen1.jpg" alt="hero" style={{ display: 'block', width: '100%', objectFit: 'cover' }} />
-                </div>
-                <div>
-                    <img src="/images/download.jfif" alt="hero" style={{ display: 'block', width: '100%', objectFit: 'cover' }} />
+                    <img src="/images/MH_D_2880x1280_2_392519213c.avif" alt="hero" style={{ display: 'block', width: '100%', objectFit: 'cover' }} />
                 </div>
                 <div>
                     <img src="/images/dirty2.webp" alt="hero" style={{ display: 'block', width: '100%', objectFit: 'cover' }} />
+                </div>
+                <div>
+                    <img src="/images/Nike_Airmax_day_1960_740_V.webp" alt="hero" style={{ display: 'block', width: '100%', objectFit: 'cover' }} />
                 </div>
             </Slider>
         </>
