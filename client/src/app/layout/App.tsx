@@ -45,7 +45,7 @@ function App() {
     setDarkMode(!darkMode);
   }
 
-  if(loading) return <LoadingComponent message='Initialising app ...' /> 
+  if(loading) return <LoadingComponent message='Đang khởi tạo ứng dụng ...' /> 
   //đây là phần trả về component
   return (
     <ThemeProvider theme={theme}>
@@ -54,7 +54,7 @@ function App() {
       <CssBaseline/>
       <Header darkMode={darkMode} handleThemeChange={handleThemeChange}/>
       {
-        loading ? <LoadingComponent message='Initialising app ...' /> :location.pathname==='/' ? <HomePage />
+        loading ? <LoadingComponent message='Đang khởi tạo ứng dụng ...' /> :location.pathname==='/' ? <HomePage />
         : <Container sx={{mt:4}}>
           <Outlet />
         </Container>

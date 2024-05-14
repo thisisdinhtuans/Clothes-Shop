@@ -40,11 +40,11 @@ export default function Register() {
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
-            Register
+            Đăng ký
           </Typography>
           <Box component="form" onSubmit={handleSubmit(data=>agent.Account.register(data)
             .then(()=>{
-                toast.success('Registration successful - you can now login');
+                toast.success('Đăng ký thành công. Bạn có thể đăng nhập ngay bây giờ');
                 navigate('/login')
             })
             .catch(error=>handleApiErrors(error)))} 
@@ -96,13 +96,13 @@ export default function Register() {
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
             >
-              Register
+              Đăng ký
             </LoadingButton>
             <Grid container>
               <Grid item>
                 {/* Link ở đây là phải import react router dom */}
                 <Link to='/login'>
-                  {"All have an account? Sign In"}
+                  {"Có tài khoản? Đăng nhập"}
                 </Link>
               </Grid>
             </Grid>

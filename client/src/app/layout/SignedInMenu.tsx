@@ -33,11 +33,11 @@ export default function SignedInMenu() {
                 TransitionComponent={Fade}
             >
                 <MenuItem onClick={handleClose}>Profile</MenuItem>
-                <MenuItem component={Link} to='/orders' >My orders</MenuItem>
+                <MenuItem component={Link} to='/orders' >Đơn hàng</MenuItem>
                 <MenuItem onClick={()=> {
                     dispatch(signOut())
                     dispatch(clearBasket())
-                }}>Logout</MenuItem>
+                }}>Đăng xuất</MenuItem>
             </Menu>
             </>
         );
