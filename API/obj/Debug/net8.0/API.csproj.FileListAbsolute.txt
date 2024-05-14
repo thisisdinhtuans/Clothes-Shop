@@ -344,7 +344,6 @@ D:\Big\.NETReact\demo\ReStore\api\bin\Debug\net8.0\API.staticwebassets.runtime.j
 D:\Big\.NETReact\demo\ReStore\api\bin\Debug\net8.0\Npgsql.dll
 D:\Big\.NETReact\demo\ReStore\api\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\AD\Downloads\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\api\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\AD\Downloads\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\api\bin\Debug\net8.0\appsettings.json
 C:\Users\AD\Downloads\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\api\bin\Debug\net8.0\API.staticwebassets.runtime.json
 C:\Users\AD\Downloads\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\api\bin\Debug\net8.0\API.exe
 C:\Users\AD\Downloads\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\api\bin\Debug\net8.0\API.deps.json
