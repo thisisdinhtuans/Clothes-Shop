@@ -20,7 +20,7 @@ export default function Orders() {
             .finally(() => setLoading(false))
     }, []);
 
-    if (loading) return <LoadingComponent message="Loading orders..." />
+    if (loading) return <LoadingComponent message="Tải đơn hàng..." />
 
     if (selectedOrderNumber > 0 && orders) return (
         <OrderDetailed
@@ -35,9 +35,9 @@ export default function Orders() {
                 <TableHead>
                     <TableRow>
                         <TableCell>Order Number</TableCell>
-                        <TableCell align="right">Total</TableCell>
-                        <TableCell align="right">Order Date</TableCell>
-                        <TableCell align="right">Order Status</TableCell>
+                        <TableCell align="right">Tổng tiền</TableCell>
+                        <TableCell align="right">Ngày đặt</TableCell>
+                        <TableCell align="right">Tình trạng đặt hàng</TableCell>
                         <TableCell align="right"></TableCell>
                     </TableRow>
                 </TableHead>

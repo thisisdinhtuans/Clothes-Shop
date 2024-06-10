@@ -165,7 +165,7 @@ export default function CheckoutPage() {
                             <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
                                 {activeStep !== 0 && (
                                     <Button onClick={handleBack} sx={{ mt: 3, ml: 1 }}>
-                                        Back
+                                        Trở lại
                                     </Button>
                                 )}
                                 <LoadingButton
@@ -175,7 +175,7 @@ export default function CheckoutPage() {
                                     variant="contained"
                                     sx={{ mt: 3, ml: 1 }}
                                 >
-                                    {activeStep === steps.length - 1 ? 'Place order' : 'Next'}
+                                    {activeStep === steps.length - 1 ? 'Đặt hàng' : 'Tiếp theo'}
                                 </LoadingButton>
                             </Box>
                         </form>

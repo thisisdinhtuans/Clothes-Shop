@@ -19,7 +19,7 @@ public class PaymentService
 
         var intent = new PaymentIntent();
         var subtotal = basket.Items.Sum(i => i.Quantity * i.Product.Price);
-        var deliveryFee = subtotal > 10000000 ? 0 : 35000;
+        var deliveryFee = subtotal > 1000000 ? 0 : 35000;
 
         if (string.IsNullOrEmpty(basket.PaymentIntentId))
         {
