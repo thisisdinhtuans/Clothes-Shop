@@ -37,7 +37,7 @@ export default function Login() {
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
-            Sign in
+            Đăng nhập
           </Typography>
           <Box component="form" onSubmit={handleSubmit(submitForm)} noValidate sx={{ mt: 1 }}>
             <TextField
@@ -72,7 +72,7 @@ export default function Login() {
               <Grid item>
                 {/* Link ở đây là phải import react router dom */}
                 <Link to='/register'>
-                  {"Don't have an account? Sign Up"}
+                  {"Chưa có tài khoản"}
                 </Link>
               </Grid>
             </Grid>

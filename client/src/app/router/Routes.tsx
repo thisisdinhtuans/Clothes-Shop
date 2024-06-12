@@ -13,6 +13,7 @@ import RequireAuth from './RequireAuth';
 import Orders from '../../features/orders/Orders';
 import CheckoutWrapper from '../../features/checkout/CheckoutWrapper';
 import Inventory from '../../features/admin/Inventory';
+import { Dashboard } from '@mui/icons-material';
 
 export const router = createBrowserRouter(([
     {
@@ -30,6 +31,7 @@ export const router = createBrowserRouter(([
                 // admin routes
                 element: <RequireAuth roles={['Admin']} />, children: [
                     { path: '/inventory', element: <Inventory /> },
+                    { path: '/dashboard', element: <Dashboard /> },
                 ]
             },
             { path: 'catalog', element: <Catalog /> },

@@ -40,7 +40,7 @@ export default function Register() {
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
-            Register
+            Đăng ký
           </Typography>
           <Box component="form" onSubmit={handleSubmit(data=>agent.Account.register(data)
             .then(()=>{
@@ -102,7 +102,7 @@ export default function Register() {
               <Grid item>
                 {/* Link ở đây là phải import react router dom */}
                 <Link to='/login'>
-                  {"All have an account? Sign In"}
+                  {"Đã có tài khoản. Đăng nhập"}
                 </Link>
               </Grid>
             </Grid>

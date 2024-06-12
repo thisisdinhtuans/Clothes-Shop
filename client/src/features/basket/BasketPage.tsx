@@ -6,7 +6,7 @@ import BasketTable from "./BasketTable";
 
 export default function BasketPage() {
   const { basket } = useAppSelector(state => state.basket);
-    if(!basket) return <Typography variant='h3'>Your basket is empty</Typography>
+    if(!basket) return <Typography variant='h3'>Giỏ hàng của bạn đang trống</Typography>
 
     return (
     <>
@@ -22,7 +22,7 @@ export default function BasketPage() {
           size='large'
           fullWidth  
         >
-          Checkout
+          Thanh Toán
         </Button>
       </Grid>
     </Grid>

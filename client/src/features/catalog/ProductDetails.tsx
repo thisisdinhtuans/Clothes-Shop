@@ -44,7 +44,7 @@ export default function ProductDetails() {
         }
     }
     //Kiểm tra trạng thái loading: Nếu loading là true, hiển thị một thông báo "Loading..." cho đến khi dữ liệu sản phẩm được tải hoàn tất.
-    if(productStatus.includes('pending')) return <LoadingComponent message='Loading product...' />
+    if(productStatus.includes('pending')) return <LoadingComponent message='Đang tải sản phẩm...' />
     //Kiểm tra trạng thái product: Nếu product là null, hiển thị một thông báo "Product not found" để thông báo rằng sản phẩm không được tìm thấy.
     if(!product)return <NotFound />
     return (

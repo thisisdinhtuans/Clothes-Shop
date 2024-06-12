@@ -7,7 +7,7 @@ import SignedInMenu from './SignedInMenu';
 const midLinks = [
     { title: 'shop', path: '/catalog' },
     { title: 'about', path: '/about' },
-    { title: 'contact', path: '/contact' }
+    { title: 'contact', path: '/contact' },
 ]
 
 const rightLinks = [
@@ -47,11 +47,11 @@ export default function Header({ handleThemeChange, darkMode }: Props) {
                         to='/'
                         sx={navLinkStyles}
                     >
-                        ARISTINO
+                        SUPERSPORTS
                     </Typography>
                     <Switch checked={darkMode} onChange={handleThemeChange} />
                 </Box>
-
+                
                 <List sx={{ display: 'flex' }}>
                     {midLinks.map(({ title, path }) => (
                         <ListItem
@@ -63,14 +63,33 @@ export default function Header({ handleThemeChange, darkMode }: Props) {
                             {title.toUpperCase()}
                         </ListItem>
                     ))}
-                    {user && user.roles?.includes('Admin') &&
-                    <ListItem
-                        component={NavLink}
-                        to={'/inventory'}
-                        sx={navLinkStyles}
-                    >
-                        INVENTORY
-                    </ListItem>}
+                    {user && user.roles?.includes('Admin') && (
+                        <>
+                            <ListItem
+                                component={NavLink}
+                                to={'/inventory'}
+                                sx={navLinkStyles}
+                            >
+                                INVENTORY
+                            </ListItem>
+                            <ListItem
+                                component="a"
+                                href="https://app.powerbi.com/view?r=eyJrIjoiOGIwNzZmZjktMzQ2YS00NWYwLWJlYjMtMTVhY2Y4ZjJlOTJkIiwidCI6IjNmOTNlYWE2LWI5MjEtNGMzNS05YWVhLWIwYWQ3NDY5NTE3YSIsImMiOjEwfQ%3D%3D"
+                                target="_blank"
+                                sx={navLinkStyles}
+                            >
+                                DASHBOARD
+                            </ListItem>
+                            <ListItem
+                                component="a"
+                                href="http://127.0.0.1:5001/generate_report"
+                                target="_blank"
+                                sx={navLinkStyles}
+                            >
+                                REPORT
+                            </ListItem>
+                        </>
+                    )}
                 </List>
 
                 <Box display='flex' alignItems='center'>
@@ -95,10 +114,8 @@ export default function Header({ handleThemeChange, darkMode }: Props) {
                             ))}
                         </List>
                     )}
-
                 </Box>
-
             </Toolbar>
         </AppBar>
-    )
+    );
 }
