@@ -150,4 +150,10 @@ catch (Exception ex)
     logger.LogError(ex, "A problem occurred during migration");
 }
 
+// app.Use(async (context, next)=>{
+//     Console.WriteLine("Go to middleware 2");
+//     await next.Invoke();
+//     Console.WriteLine("Return to middleware 1");
+// });
+
 app.Run();

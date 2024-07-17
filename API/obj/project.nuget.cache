@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t2AoMbm79I8Cz1QM41SLt1Q3K7eB99iOi02Gj7M2Wf/f1d/Xpuy3yRKrS7k49zu85YkSB2jUVdqx6cSxTy7OYA==",
+  "dgSpecHash": "cWiZB/9FNavJrOBRRLbFSfHQaGV9QDzGuEEvvg7Z2BhHQ9ysVbTRUf1ltaXb0aXenV99v1pHafDcuTXMHHgdkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AD\\Downloads\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\API.csproj",
+  "projectFilePath": "D:\\Train\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\Ecommerce-.NET-React-c0cb2095d03ca77ce789ff8c322898ba485f4699\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AD\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\AD\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
