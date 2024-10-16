@@ -67,7 +67,7 @@ namespace API.Controllers
                 productItem.QuantityInStock-=item.Quantity;
             }
 
-            var subtotal=items.Sum(item=>item.Price* item.Quantity);
+            var subtotal=items.Sum(item=>item.Price * item.Quantity);
             var deliveryFee=subtotal > 1000000 ? 0 : 35000;
 
             var order=new Order

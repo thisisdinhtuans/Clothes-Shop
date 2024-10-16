@@ -31,7 +31,13 @@ namespace API.Controllers
                 .Sort(productParams.OrderBy)
                 .Search(productParams.SearchTerm)
                 .Filter(productParams.Brands, productParams.Types)
+                // .TakeFirstTen()
                 .AsQueryable();
+
+            if (productParams.ShowFirstTen)
+            {
+                query = query.TakeFirstTen();
+            }
             var products=await PagedList<Product>.ToPagedList(query,productParams.PageNumber, productParams.PageSize);
             Response.AddPaginationHeader(products.MetaData);
             return products;

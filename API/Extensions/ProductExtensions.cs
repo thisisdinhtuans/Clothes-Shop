@@ -20,7 +20,8 @@ namespace API.Extensions
             
             var lowerCaseSearchTerm=searchTerm.Trim().ToLower();
 
-            return query.Where(p=>p.Name.ToLower().Contains(lowerCaseSearchTerm));
+            // return query.Where(p=>p.Name.ToLower().Contains(lowerCaseSearchTerm));
+            return query.Where(p => p.Name.ToLower().StartsWith(lowerCaseSearchTerm));
         }
 
         public static IQueryable<Product> Filter(this IQueryable<Product> query, string brands, string types) {
@@ -37,6 +38,11 @@ namespace API.Extensions
             query=query.Where(p=>typeList.Count==0||typeList.Contains(p.Type.ToLower()));
 
             return query;
+        }
+
+        public static IQueryable<Product> TakeFirstTen(this IQueryable<Product> query)
+        {
+            return query.Take(4);
         }
     }
 }
